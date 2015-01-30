@@ -4,7 +4,7 @@
 	line-height: 62px;
 	font-size: 62px;
 	color: #ffffff;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat-bold';
 	font-weight: bold;
 	text-align: left;
 }
@@ -14,7 +14,7 @@
 	line-height: 44px;
 	font-size: 44px;
 	color: #ffffff;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat-bold';
 	font-weight: bold;
 	text-align: left;
 }
@@ -96,7 +96,7 @@ main .filterx li a{
 	margin: 10px 0px;
 	padding: 0;
 	width: 100%;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat-bold';
 	font-size: 22px;
 	color: #000000;
 	font-weight: bold;
@@ -117,7 +117,7 @@ main .filterx li a{
 	padding: 0 0 10px 0;
 	width: 100%;
 	line-height: 13px;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat-bold';
 	font-size: 13px;
 	font-weight: bold;
 	color: #000000;
@@ -149,10 +149,10 @@ main .filterx li a{
 }
 .error-projViewLeft .error-404-projViewText .error-404-value{
 	color: #000000;	
-	font-weight: lighter;
+	font-family: 'Montserrat';
 }
 .error-projViewLeft .error-404-projViewText b, .error-projViewLeft .error-404-projViewText strong{
-	font-family: 'Montserrat';
+	font-family: 'Montserrat-bold';
 }
 .error-projViewLeft .error-404-projViewText hr{
 	margin: 10px 0;
@@ -165,7 +165,7 @@ main .filterx li a{
 	margin: 5px 0 0 0;
 	padding: 0;
 	font-size: 16px;
-	font-family: 'Montserrat'; 
+	font-family: 'Montserrat-bold';
 	line-height: 16px; 
 }
 .error-team-item p{
@@ -179,10 +179,11 @@ main .filterx li a{
 .error-404-teamView h1{
 	margin: 45px 0 0 0;
 	padding: 0;
-	font-family: 'Montserrat'; 
+	font-family: 'Montserrat-bold';
 	font-size: 16px;
 	color: #000000;
 	line-height: 18px;
+	font-weight: bold;
 }
 .error-404-teamView h2{
 	margin: 0;
@@ -195,7 +196,7 @@ main .filterx li a{
 .error-404-teamView strong, .error-404-teamView b{
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat'; 
+	font-family: 'Montserrat-bold';
 	font-size: 13px;
 	color: #000000;
 	line-height: 18px;
@@ -212,7 +213,7 @@ main .filterx li a{
 .error-404-newsText h2 a{
 	margin: 0; 
 	padding: 0;
-	font-family: 'Montserrat'; 
+	font-family: 'Montserrat-bold';
 	font-size: 18px;
 	line-height: 20px;
 	color: #000000;
@@ -236,7 +237,7 @@ main .filterx li a{
 .error-404-contactCols h2{
 	margin: 0 0 10px 0;
 	padding: 0; 
-	font-family: 'Montserrat'; 
+	font-family: 'Montserrat-bold';
 	font-size: 16px; 
 	color: #000000; 
 }
