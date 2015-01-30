@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'bpg_banner_caps';
+    src: url('../fonts/bpg_banner_caps-webfont.eot');
+    src: 
+		url('../fonts/bpg_banner_caps-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bpg_banner_caps-webfont.woff') format('woff'),
+		url('../fonts/bpg_banner_caps-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+}
+@font-face {
+    font-family: 'bpg_glaho_arial';
+    src: url('../fonts/bpg_glaho_arial-webfont.eot');
+    src: 
+		url('../fonts/bpg_glaho_arial-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bpg_glaho_arial-webfont.woff') format('woff'),
+		url('../fonts/bpg_glaho_arial-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+}
+.header .title{margin:28px 0 0 10px; text-align:left; line-height:20px; font-size:12px; font-family:'bpg_banner_caps'; color:#fc9329; float:left; }
+.header .quick_info .info{ margin:7px 10px 0px 0px; line-height:12px; float:right; font-size:11px; font-family:'bpg_glaho_arial'; }
+.header .quick_info .info a{ line-height:14px; font-size:11px; font-family:'bpg_glaho_arial'; color:#222222; }
+.box .head .text{ width:250px; line-height:19px; color:#c4c4c4; font-size:12px; font-family:'bpg_banner_caps'; text-align:left; padding:3px 5px; float:left; }
+.box .body form .fill label{ margin:0px 10px; width:380px; line-height:25px; font-size:12px; font-family:'bpg_glaho_arial'; color:#222222; float:left; }
+.box .body form .fill input[type="submit"]{ width:80px; height:25px; border:solid 1px #cccccc; float:right; margin:10px 21px 0 0px; background:#222222; color:#ffffff; font-size:12px; font-family:'bpg_banner_caps'; }
+.box .body form .copy a{ width:180px; float:left; line-height:16px; font-size:10px; font-family:'bpg_glaho_arial'; color:#cccccc; text-align:left; margin:0 10px; text-decoration:none; }
+.box .body form .fill .msg{ width:200px; line-height:14px; background:#222222; cursor:pointer; padding:5px; position:absolute; z-index:1000; color:white; font-size:10px; font-family:'bpg_glaho_arial'; display:none; border:solid 1px #cccccc; margin:12px 0 0 0px; }
+.leftside .welcome{ width:208px; line-height:20px; font-size:12px; font-family:'bpg_banner_caps'; color:#fc9329; float:left; margin:10px 0 0 0;  }
+.leftside .name{ width:190px; line-height:18px; font-size:12px; font-family:'bpg_glaho_arial'; color:#222222; float:left; margin:0; position:relative; padding:0 0 0 18px; }
+.leftside .nav li a{ width:248px; line-height:33px; font-size:12px; font-family:'bpg_banner_caps'; color:#222222; text-align:left; padding:5px 0px 0px 38px; display:block; text-decoration:none; border-bottom:solid 1px #ececee; }
+.leftside .nav li a:hover, .leftside .nav li .active{ background:#fc9329; color:white; }
+.leftside .nav li .sub_menu li a{  line-height:20px; display:block; font-size:12px; font-family:'bpg_glaho_arial'; color:#222222; background:#f2f2f2; }
+.leftside .nav li .sub_menu li a:hover, .leftside .nav li .sub_menu li a:active{ text-decoration:underline }
+.rightside .bread a{ line-height:20px; font-size:10px; font-family:'bpg_glaho_arial'; color:#222222; }
+.inside-navigation ul li .dropdown li a{ margin:0; padding:0; width:170px; height:auto !important; line-height:20px; font-size:12px; font-family:'bpg_glaho_arial'; color:#ffffff; background:none !important; display:block; text-decoration:none; padding:5px; }
+.footer .center{margin:auto; width:1100px; line-height:20px; font-size:12px; font-family:'bpg_glaho_arial'; text-align:left; padding:5px 0; border-top:solid 1px #ccc; }
+.footer .center a{ color:#d3d3d3; }
+.rightside .table tr th{ margin:0; padding:0; background:#222222; line-height:20px; font-size:12px; font-family:'bpg_glaho_arial'; color:white; text-align:left; padding:5px 5px 0 5px; }
+.rightside .table tr td{ margin:0; padding:0; line-height:20px; font-size:12px; font-family:'bpg_glaho_arial';  text-align:left; padding:5px 5px 0 5px; }
+.rightside .main_actions li a{ line-height:20px; text-align:center; display:block; font-size:12px; font-family:'bpg_glaho_arial'; text-decoration:none; color:#222222; }
+.rightside .pagination li a{ line-height:20px; font-size:12px; font-family:'bpg_glaho_arial'; display:block;  text-decoration:none; padding:3px 5px 0 5px; color:#222222; }
+.rightside h1{ text-align:left; padding:10px 0 0 5px; font-size:14px; font-family:'bpg_banner_caps'; color:#222222; }
+.rightside h1 .search input[type="text"]{ width:180px; height:14px; float:left; background:#f2f2f2; border:solid 1px #cccccc; margin:0 5px 0 0; padding:3px 15px 3px 5px; text-align:left; font-size:12px; font-family:'bpg_glaho_arial'; color:#222222; }
+.rightside h1 .search select{ width:180px; height:22px; float:left; background:#f2f2f2; border:solid 1px #cccccc; margin:0 5px 0 0; padding:1px 15px 1px 5px; text-align:left; font-size:11px; font-family:'bpg_glaho_arial'; color:#222222; }
+.rightside form .boxes label{ magrin:0; padding:0; width:100%; line-height:20px; float:left; font-size:12px; font-family:'bpg_glaho_arial'; color:#222222; }
+.rightside form .boxes .msg{ width:200px; line-height:14px; background:#222222; cursor:pointer; padding:5px; position:absolute; z-index:1000; color:white; font-size:10px; font-family:'bpg_glaho_arial'; display:none; border:solid 1px #cccccc; margin:12px 0 0 0px; }
+.rightside form .boxes input,.rightside form .boxes select,.rightside form .boxes textarea{ font-size:12px; font-family:'bpg_glaho_arial'; }
+.rightside form .boxes .rights b{ font-size:11px; font-family:'bpg_glaho_arial'; }
+.rightside form .boxes .rights label{ width:120px; line-height:20px; font-size:11px; font-family:'bpg_glaho_arial'; float:left; }
+.rightside form .boxes .rights input[type="checkbox"]{ width:220px; line-height:20px; font-size:11px; font-family:'bpg_glaho_arial'; float:left; }
+.mbox .question{ line-height:20px; font-size:11px; font-family:'bpg_banner_caps'; color:#222222; text-align:left; padding:5px; }
+.rightside form .boxes .error_msg{ width:98%; line-height:25px; padding:0px 1%; color:white; font-size:14px; font-family:'bpg_glaho_arial'; }
+.rightside form .boxes a{ line-height:25px; color:#fc9329; font-size:12px; font-family:'bpg_glaho_arial'; }
+.rightside .cont ul #tab-1{ font-size:11px; font-family:'bpg_glaho_arial'; color:#222222;  }
+.rightside .cont ul #tab-2{ font-size:11px; font-family:'bpg_glaho_arial'; color:#222222; }
+.rightside .cont ul #tab-3{ font-size:11px; font-family:'bpg_glaho_arial'; color:#222222; }
+.rightside .cont ul #tab-4{ font-size:11px; font-family:'bpg_glaho_arial'; color:#222222; }
+.rightside .cont ul #tab-5{ font-size:11px; font-family:'bpg_glaho_arial'; color:#222222; }
+.rightside .cont ul #tab-6{ font-size:11px; font-family:'bpg_glaho_arial'; color:#222222; }
+.mbox form .boxes label{ magrin:0; padding:0; width:100%; line-height:20px; float:left; font-size:12px; font-family:'bpg_glaho_arial'; color:#222222; }
+.mbox form .boxes .msg{ width:200px; line-height:14px; background:#222222; cursor:pointer; padding:5px; position:absolute; z-index:1000; color:white; font-size:10px; font-family:'bpg_glaho_arial'; display:none; border:solid 1px #cccccc; margin:12px 0 0 0px; }
+.mbox form .boxes .closex,.mbox form .boxes input,.rightside form .boxes select,.rightside form .boxes textarea{ font-size:12px; font-family:'bpg_glaho_arial'; }
+.mbox form .boxes .rights b{ font-size:11px; font-family:'bpg_glaho_arial'; }
+.mbox form .boxes .rights label{ width:120px; line-height:20px; font-size:11px; font-family:'bpg_glaho_arial'; float:left; }
+.mbox form .boxes .rights input[type="checkbox"]{ width:220px; line-height:20px; font-size:11px; font-family:'bpg_glaho_arial'; float:left; }
+.mbox .answer ul li a{ margin:0; padding:0; border:0; width:100%; line-height:20px; font-size:12px; font-family:'bpg_glaho_arial'; color:#fc9329 }

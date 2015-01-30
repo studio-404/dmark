@@ -1,0 +1,4 @@
+[19-Aug-2014 08:48:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/geoweb/error.404.ge/_plugins/canvas/mobile_phone_sub.php on line 75
+[19-Aug-2014 09:14:43 America/Chicago] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/geoweb/error.404.ge/_plugins/canvas/mobile_phone_sub.php on line 45
+[19-Aug-2014 11:39:59 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/geoweb/error.404.ge/_plugins/canvas/spend_time.php on line 57
+[19-Aug-2014 11:40:00 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/geoweb/error.404.ge/_plugins/canvas/spend_time.php on line 57

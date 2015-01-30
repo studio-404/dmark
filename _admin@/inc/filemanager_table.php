@@ -1,0 +1,1 @@
+<iframe src="<?=MAIN_DIR?>/_admin@/_plugins/manager/" width="100%" height="500"></iframe>

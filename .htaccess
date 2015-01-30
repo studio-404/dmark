@@ -1,0 +1,26 @@
+ErrorDocument 404 /ka/error
+RewriteEngine on
+
+# Installation directory
+RewriteBase /
+
+# Allow any files or directories that exist to be displayed directly
+RewriteCond ${REQUEST_URI} ^.+$
+RewriteCond %{REQUEST_FILENAME} \.(gif|jpe?g|png|js|css|swf|php|ico|txt|pdf|xml)$ [OR]
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -l
+RewriteRule ^ - [L]
+
+
+RewriteRule ^([a-z]+)/([a-zA-Z0-9_]+)$ open.php?lang=$1&url=$2 [QSA,L]
+RewriteRule ^([a-z]+)/([a-zA-Z0-9_]+)/pn/([0-9]+)$ open.php?lang=$1&url=$2&pn=$3 [QSA,L]
+RewriteRule ^([a-z]+)/([a-zA-Z0-9_]+)/date/([0-9]+)/([0-9]+)/([0-9]+)$ open.php?lang=$1&url=$2&day=$3&month=$4&year=$5 [QSA,L]
+RewriteRule ^([a-z]+)/publicArchive/([0-9]+)$ open.php?lang=$1&url=publicArchive&year=$2
+RewriteRule ^([a-z]+)/publicArchive/([0-9]+)/pn/([0-9]+)$ open.php?lang=$1&url=publicArchive&year=$2&pn=$3
+
+RewriteRule ^([a-z]+)/newsarchive/([0-9]+)$ open.php?lang=$1&url=newsarchive&year=$2
+RewriteRule ^([a-z]+)/newsarchive/([0-9]+)/pn/([0-9]+)$ open.php?lang=$1&url=newsarchive&year=$2&pn=$3
+
+RewriteRule ^([a-z]+)/([a-zA-Z0-9_]+)/([0-9]+)/([0-9]+)/(.*)$ open.php?lang=$1&url=$2&news_titile=$5 [L]
+RewriteRule ^([a-z]+)/([a-zA-Z0-9_]+)/(.*)$ open.php?lang=$1&url=$2&news_titile=$3&catalog=true [L]

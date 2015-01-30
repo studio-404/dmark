@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>2014 წელს სახელმწიფო სტრუქტურების მიერ გახარჯული თანხები</title>
+  <script type="text/javascript" charset="utf-8">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+      title:{
+        text: "2014 წელს სახელმწიფო სტრუქტურების მიერ გახარჯული თანხები"
+      },
+      legend:{
+        verticalAlign: "center",
+        horizontalAlign: "left",
+        fontSize: 20,
+        fontFamily: "Helvetica"        
+      },
+      theme: "theme2",
+      data: [
+      {        
+       type: "pie",       
+       indexLabelFontFamily: "Garamond",       
+       indexLabelFontSize: 12,
+       startAngle:-20, 
+       dataPoints: [
+							{ y: 2052235, label: "სასჯელაღსრულების სამინისტრო" },										{ y: 5055205, label: "ჯანდაცვის სამინისტრო" },										{ y: 7522350, label: "თავდაცვის სამინისტრო" }					       ]
+     }
+     ]
+   });
+
+    chart.render();
+  }
+  </script>
+  <script type="text/javascript" src="http://error.404.ge/_plugins/canvas/canvasjs.min.js"></script>
+  <body>
+    <div id="chartContainer" style="height: 300px; width: 100%;">
+    </div>
+  </body>
+
+</html>

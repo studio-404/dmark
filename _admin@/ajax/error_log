@@ -1,0 +1,2 @@
+[13-Aug-2014 20:36:48 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/ajax/move2.php on line 9
+[13-Aug-2014 20:37:07 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/ajax/move2.php on line 9

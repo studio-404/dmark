@@ -1,0 +1,231 @@
+[12-Sep-2014 09:55:05 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[12-Sep-2014 09:55:05 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[12-Sep-2014 09:55:05 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[12-Sep-2014 09:55:05 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[12-Sep-2014 09:55:05 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[12-Sep-2014 09:55:05 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[12-Sep-2014 09:55:05 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[12-Sep-2014 15:23:13 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[12-Sep-2014 15:23:14 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[12-Sep-2014 15:23:14 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[12-Sep-2014 15:23:14 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[12-Sep-2014 15:23:14 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'geoweb'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[12-Sep-2014 15:23:14 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[12-Sep-2014 15:23:14 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[25-Sep-2014 09:23:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[25-Sep-2014 09:23:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[25-Sep-2014 09:23:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[25-Sep-2014 09:23:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[25-Sep-2014 09:23:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[25-Sep-2014 09:23:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[25-Sep-2014 09:23:03 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[16-Oct-2014 07:18:10 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:18:11 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:18:11 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:18:11 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:18:11 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:18:11 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:18:11 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[16-Oct-2014 07:19:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:19:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:19:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:19:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:19:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:19:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:19:02 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[16-Oct-2014 07:20:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:20:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:20:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:20:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:20:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:20:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:20:02 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[16-Oct-2014 07:21:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:21:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:21:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:21:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:21:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:21:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:21:03 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[16-Oct-2014 07:22:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:22:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:22:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:22:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:22:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:22:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:22:02 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[16-Oct-2014 07:23:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:23:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:23:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[16-Oct-2014 07:23:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:23:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:23:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[16-Oct-2014 07:23:02 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[23-Oct-2014 14:25:04 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[23-Oct-2014 14:25:04 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[23-Oct-2014 14:25:04 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[23-Oct-2014 14:25:04 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[23-Oct-2014 14:25:04 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[23-Oct-2014 14:25:04 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[23-Oct-2014 14:25:04 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[29-Oct-2014 12:24:45 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 6
+[29-Oct-2014 12:24:45 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 6
+[29-Oct-2014 12:24:45 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 6
+[29-Oct-2014 12:24:45 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 10
+[29-Oct-2014 12:24:45 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 10
+[29-Oct-2014 12:24:45 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 10
+[29-Oct-2014 12:24:45 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 11
+[29-Oct-2014 14:51:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[29-Oct-2014 14:51:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[29-Oct-2014 14:51:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[29-Oct-2014 14:51:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[29-Oct-2014 14:51:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[29-Oct-2014 14:51:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[29-Oct-2014 14:51:03 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:28 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:29 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[04-Dec-2014 05:40:30 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:30 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:30 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[04-Dec-2014 05:40:33 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:34 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:34 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:34 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:34 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:34 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:34 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[04-Dec-2014 05:40:45 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:45 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:45 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[04-Dec-2014 05:40:45 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:45 Asia/Tbilisi] PHP Warning:  mysql_query(): Too many connections in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:45 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[04-Dec-2014 05:40:45 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[07-Dec-2014 08:01:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[07-Dec-2014 08:01:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[07-Dec-2014 08:01:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[07-Dec-2014 08:01:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[07-Dec-2014 08:01:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[07-Dec-2014 08:01:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[07-Dec-2014 08:01:03 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[07-Dec-2014 08:02:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[07-Dec-2014 08:02:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[07-Dec-2014 08:02:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[07-Dec-2014 08:02:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[07-Dec-2014 08:02:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[07-Dec-2014 08:02:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[07-Dec-2014 08:02:02 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 6
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'geoweb'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'geoweb'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 6
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 6
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 10
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'geoweb'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'geoweb'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 10
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 10
+[07-Dec-2014 08:24:02 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 11
+[11-Dec-2014 22:20:04 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:20:04 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:20:04 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:20:04 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:20:04 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:20:04 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:20:04 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[11-Dec-2014 22:21:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:21:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:21:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:21:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:21:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:21:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:21:02 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[11-Dec-2014 22:22:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:22:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:22:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:22:02 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:22:02 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:22:02 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:22:02 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[11-Dec-2014 22:23:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:23:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:23:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:23:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:23:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:23:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:23:03 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 6
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 6
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 6
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 10
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 10
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 10
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/create_chart.php on line 11
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:24:03 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[11-Dec-2014 22:25:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:25:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:25:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:25:03 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:25:03 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:25:03 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:25:03 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[11-Dec-2014 22:26:04 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:26:04 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:26:04 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[11-Dec-2014 22:26:04 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:26:04 Asia/Tbilisi] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:26:04 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[11-Dec-2014 22:26:04 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17
+[07-Jan-2015 10:19:07 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[07-Jan-2015 10:19:08 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[07-Jan-2015 10:19:08 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 7
+[07-Jan-2015 10:19:08 Asia/Tbilisi] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[07-Jan-2015 10:19:08 Asia/Tbilisi] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[07-Jan-2015 10:19:08 Asia/Tbilisi] PHP Warning:  mysql_query(): A link to the server could not be established in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 16
+[07-Jan-2015 10:19:08 Asia/Tbilisi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/_admin@/_cron/_backup.php on line 17

@@ -1,0 +1,15 @@
+[22-Sep-2014 11:33:06 Asia/Tbilisi] PHP Fatal error:  Cannot break/continue 1 level in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 64
+[22-Sep-2014 11:38:21 Asia/Tbilisi] PHP Fatal error:  Cannot break/continue 1 level in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 64
+[22-Sep-2014 13:20:56 Asia/Tbilisi] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 44
+[22-Sep-2014 13:21:25 Asia/Tbilisi] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 45
+[29-Oct-2014 13:54:54 Asia/Tbilisi] PHP Notice:  Undefined variable: row in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 45
+[29-Oct-2014 13:54:59 Asia/Tbilisi] PHP Notice:  Undefined variable: row in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 45
+[29-Oct-2014 13:55:21 Asia/Tbilisi] PHP Notice:  Undefined variable: row in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 45
+[29-Oct-2014 05:08:14 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 71
+[29-Oct-2014 14:08:47 Asia/Tbilisi] PHP Notice:  Undefined variable: row in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 49
+[29-Oct-2014 14:08:47 Asia/Tbilisi] PHP Notice:  Undefined variable: row in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 49
+[29-Oct-2014 14:09:11 Asia/Tbilisi] PHP Notice:  Undefined variable: row in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 49
+[29-Oct-2014 14:09:11 Asia/Tbilisi] PHP Notice:  Undefined variable: row in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 49
+[29-Oct-2014 14:09:34 Asia/Tbilisi] PHP Notice:  Undefined variable: row in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 49
+[29-Oct-2014 14:09:34 Asia/Tbilisi] PHP Notice:  Undefined variable: row in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 49
+[29-Oct-2014 14:10:24 Asia/Tbilisi] PHP Notice:  Undefined variable: row in /home/geoweb/error.404.ge/PHPMailer-master/examples/mailing_list.php on line 49

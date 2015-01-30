@@ -1,0 +1,10 @@
+<errorentry>
+	<datetime>2014-08-13 23:06:08 (GET)</datetime>
+	<errornum>256</errornum>
+	<errortype>User Error</errortype>
+	<errormsg>Incorrect parameters, arrays expected</errormsg>
+	<scriptname>/home/geoweb/error.404.ge/libs/module.php</scriptname>
+	<scriptlinenum>824</scriptlinenum>
+	<vartrace><wddxPacket version='1.0'><header><comment>Variables</comment></header><data><struct><var name='vect1'><array length='3'><number>5.5</number><number>4.3</number><number>-1.6</number></array></var><var name='vect2'><string>i am not an array</string></var></struct></data></wddxPacket></vartrace>
+</errorentry>
+

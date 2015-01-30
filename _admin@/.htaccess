@@ -1,0 +1,36 @@
+RewriteEngine on
+RewriteBase /_admin@/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^ka/login$ opener.php?configuration=true&404=login&lang=ka [L]
+RewriteRule ^en/login$ opener.php?configuration=true&404=login&lang=en
+RewriteRule ^ka/home$ opener.php?configuration=true&404=home&lang=ka
+RewriteRule ^en/home$ opener.php?configuration=true&404=home&lang=en
+RewriteRule ^ka/table/([a-zA-Z0-9_]+)$ opener.php?configuration=true&404=table&show=$1&lang=ka&datepicker=1
+RewriteRule ^en/table/([a-zA-Z0-9_]+)$ opener.php?configuration=true&404=table&show=$1&lang=en&datepicker=1
+RewriteRule ^ka/table/([a-zA-Z0-9_]+)/pn/([0-9]+)$ opener.php?configuration=true&404=table&show=$1&pn=$2&lang=ka
+RewriteRule ^en/table/([a-zA-Z0-9_]+)/pn/([0-9]+)$ opener.php?configuration=true&404=table&show=$1&pn=$2&lang=en
+RewriteRule ^ka/table/([a-zA-Z0-9_]+)/([0-9]+)$ opener.php?configuration=true&404=table&show=$1&gallery_id=$2&lang=ka
+RewriteRule ^en/table/([a-zA-Z0-9_]+)/([0-9]+)$ opener.php?configuration=true&404=table&show=$1&gallery_id=$2&lang=en
+RewriteRule ^ka/table/([a-zA-Z0-9_]+)/([0-9]+)/pn/([0-9]+)$ opener.php?configuration=true&404=table&show=$1&gallery_id=$2&pn=$3&lang=ka
+RewriteRule ^en/table/([a-zA-Z0-9_]+)/([0-9]+)/pn/([0-9]+)$ opener.php?configuration=true&404=table&show=$1&gallery_id=$2&pn=$3&lang=en
+RewriteRule ^ka/add/([a-zA-Z0-9_]+)$ opener.php?configuration=true&404=add&show=$1&lang=ka&tabs=true&datepicker=1
+RewriteRule ^en/add/([a-zA-Z0-9_]+)$ opener.php?configuration=true&404=add&show=$1&lang=en&tabs=true&datepicker=1
+RewriteRule ^ka/add/([a-zA-Z0-9_]+)/([0-9]+)$ opener.php?configuration=true&404=add&show=$1&addid=$2&lang=ka&tabs=true&datepicker=1
+RewriteRule ^en/add/([a-zA-Z0-9_]+)/([0-9]+)$ opener.php?configuration=true&404=add&show=$1&addid=$2&lang=en&tabs=true&datepicker=1
+RewriteRule ^ka/edit/([a-zA-Z0-9_]+)/([0-9]+)$ opener.php?configuration=true&404=edit&show=$1&edit=$2&lang=ka&tabs=true
+RewriteRule ^en/edit/([a-zA-Z0-9_]+)/([0-9]+)$ opener.php?configuration=true&404=edit&show=$1&edit=$2&lang=en&tabs=true
+RewriteRule ^ka/edit/([a-zA-Z0-9_]+)/([0-9]+)/([0-9]+)$ opener.php?configuration=true&404=edit&show=$1&edit=$2&item=$3&lang=ka&tabs=true&datepicker=1
+RewriteRule ^en/edit/([a-zA-Z0-9_]+)/([0-9]+)/([0-9]+)$ opener.php?configuration=true&404=edit&show=$1&edit=$2&item=$3&lang=en&tabs=true&datepicker=1
+RewriteRule ^ka/slide$ opener.php?configuration=true&404=slide&lang=ka
+RewriteRule ^en/slide$ opener.php?configuration=true&404=slide&lang=en
+RewriteRule ^ka/slide/pn/([0-9]+)$ opener.php?configuration=true&404=slide&pn=$1&lang=ka
+RewriteRule ^en/slide/pn/([0-9]+)$ opener.php?configuration=true&404=slide&pn=$1&lang=en
+
+ErrorDocument 400 /error.php
+ErrorDocument 401 /error.php
+ErrorDocument 403 /error.php
+ErrorDocument 404 /error.php
+ErrorDocument 500 /error.php

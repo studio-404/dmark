@@ -1,0 +1,40 @@
+{
+  "name": "jquery.blackandwhite",
+  "version": "0.3.7",
+  "description": "This plug-in can easily convert any colored image (in an html page) into a B&W greyscale image.",
+  "main": "jquery.BlackAndWhite.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GianlucaGuarini/jQuery.BlackAndWhite.git"
+  },
+  "keywords": [
+    "jquery",
+    "grayscale",
+    "images"
+  ],
+  "testling": {
+    "html": "test/plugin.spec.html",
+    "browsers": [
+      "ie/7..latest",
+      "chrome/20..latest",
+      "firefox/10..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GianlucaGuarini/jQuery.BlackAndWhite/issues"
+  },
+  "homepage": "https://github.com/GianlucaGuarini/jQuery.BlackAndWhite",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*"
+  }
+}

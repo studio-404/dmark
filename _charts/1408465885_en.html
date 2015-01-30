@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>  
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>პროცენტების დიაგრამა</title>
+	<script type="text/javascript" charset="utf-8">
+	window.onload = function () {
+		var chart = new CanvasJS.Chart("chartContainer",
+		{
+			title:{
+				text: "პროცენტების დიაგრამა",
+				fontFamily: "arial black"
+
+			},
+			legend: {
+				verticalAlign: "bottom",
+				horizontalAlign: "center"
+			},
+			toolTip:{
+				enabled: true
+			},
+			theme: "theme1",
+			data: [
+			{        
+				type: "pie",
+				indexLabelFontFamily: "Garamond",       
+				indexLabelFontSize: 20,
+				indexLabelFontWeight: "bold",
+				startAngle:0,
+				indexLabelFontColor: "MistyRose",       
+				indexLabelLineColor: "darkgrey", 
+				indexLabelPlacement: "inside", 
+				toolTipContent: "{name}: {y}",
+				showInLegend: true,
+				dataPoints: [
+											{  y: 25, indexLabel: "25%" , name: "სუხი"},														{  y: 75, indexLabel: "75%" , name: "ფიი"}											
+				]
+			}
+			]
+		});
+
+		chart.render();
+	}
+	</script>
+	<script type="text/javascript" src="http://error.404.ge/_plugins/canvas/canvasjs.min.js"></script>
+	<body>
+		<div id="chartContainer" style="height: 300px; width: 100%;">
+		</div>
+	</body>
+
+</html>

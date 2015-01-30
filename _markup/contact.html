@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dmark Markup</title>	
+	<script type="text/javascript" src="assets/js/jquery-1.11.2.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="_plugins/bootstrap/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="_plugins/bootstrap/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/general.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/en.css" />
+    <!--OWL Slider START-->
+	<link rel="stylesheet" href="_plugins/owl.carousel/owl-carousel/owl.carousel.css">	 
+	<link rel="stylesheet" href="_plugins/owl.carousel/owl-carousel/owl.theme.css">	 
+	<script src="_plugins/owl.carousel/owl-carousel/owl.carousel.js"></script>
+    <!--OWL Slider END-->
+    <script type="text/javascript">
+	$(document).ready(function() {
+			$("#owl-demo").owlCarousel({ 
+					autoPlay : true, 
+					autoHeight : true, 
+					navigation : false, // Show next and prev buttons
+					navigationText : ["<",">"], 
+					//Lazy load
+				    lazyLoad : false,
+				    lazyFollow : true,
+				    lazyEffect : false,
+					paginationNumbers: true,
+					slideSpeed : 1000,
+					paginationSpeed : 400,
+					singleItem:true
+			});
+	});
+	</script>
+	<!--LOAD MAP START-->
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script type="text/javascript">
+		function initialize() {
+		  var mapOptions = {
+		    zoom: 17,
+		    center: new google.maps.LatLng(41.7243112,44.7772948)
+		  }
+		  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+		  setMarkers(map, beaches);
+		}
+		var beaches = [
+		  ['dmark.ge/_markup/contact.html', 41.7243112,44.7772948]
+		];
+
+		function setMarkers(map, locations) {
+		  var image = {
+		    url: 'assets/img/anchor-icon.png',
+		    size: new google.maps.Size(29, 38),
+		    origin: new google.maps.Point(0,0),
+		    anchor: new google.maps.Point(40, 15)
+		  };
+		  var shape = {
+		      coord: [1, 1, 1, 20, 18, 20, 18 , 1],
+		      type: 'poly'
+		  };
+		  for (var i = 0; i < locations.length; i++) {
+		    var beach = locations[i];
+		    var myLatLng = new google.maps.LatLng(beach[1], beach[2]);
+		    var marker = new google.maps.Marker({
+		        position: myLatLng,
+		        map: map,
+		        icon: image,
+		        shape: shape,
+		        title: beach[0],
+		        zIndex: beach[3]
+		    });
+		  }
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	<!--LOAD MAP END-->
+</head>
+<body>
+
+<header>
+	<div class="container error-404-containerProject">		
+		<a href="index.html" class="llogo"></a>
+		<a href="#" class="langs">Ge</a>
+
+
+		<div id="navigation">
+			<div class="toggle">
+				<div class="toggleline"></div>
+				<div class="toggleline"></div>
+				<div class="toggleline"></div>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#">Georgian</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+</header>
+<nav>
+	<ul>
+		<li><a href="projects.html">Projects</a></li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="team.html">Team</a></li>
+		<li class="active"><a href="contact.html">Contact</a></li>
+	</ul>
+</nav><div class="clearer"></div>
+<main class="error-404-contactMain">
+	<div class="row">	
+		
+		<div class="col-lg-12 col-md-12 error-404-contactOwl">
+			<div id="owl-demo" class="owl-carousel owl-theme error-404-owl">
+
+				<div class="item"><img src="assets/img/contact.jpg" width="100%" alt="The Last of us"></div>
+				<div class="item"><img src="assets/img/contact.jpg" width="100%" alt="GTA V"></div>
+				<div class="item"><img src="assets/img/contact.jpg" width="100%" alt="Mirror Edge"></div>
+				<div class="item"><img src="assets/img/contact.jpg" width="100%" alt="Mirror Edge"></div>
+				<div class="item"><img src="assets/img/contact.jpg" width="100%" alt="Mirror Edge"></div>
+				<div class="item"><img src="assets/img/contact.jpg" width="100%" alt="Mirror Edge"></div>
+
+			</div>
+			<div class="clearer"></div>
+		</div>
+
+		<div class="col-lg-4 col-md-4 col-sm-12 error-404-contactCols">
+			<h2>Send a question from here: </h2>
+			<form action="javascript:;" method="post" accept-charset="utf-8">
+			<div class="msg orange" style="display:none">Message sent succesfully !</div>
+			<input type="text" name="title" value="" placeholder="Your Name:" />
+			<input type="text" name="email" value="" placeholder="Email:" />
+			<textarea name="text" placeholder="Your Message:"></textarea>
+			<input type="submit" name="submit" value="Submit" />
+			</form>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12 error-404-contactCols">
+			<h2>Contact details: </h2>
+			<p>
+			Address: Giorgi  Saakadze  Descent, Tbilisi, Georgia<br />
+			Tel./Office (+995 32) 219 55 12; <br />
+			(+995 32) 219 33 34 <br />
+			E-mail: info@dmark.ge <br />
+			</p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12 error-404-contactCols">
+			<h2>Get directions: </h2>
+			<div class="map-canvas" id="map-canvas"></div>
+		</div>
+
+	</div><div class="clearer"></div>
+</main>
+
+<footer>
+	<div class="leftside">&copy;2014 Dmark - Terms & Privacy</div>
+	<div class="rightside">Getsadze Design</div>
+	<div class="clearer"> </div>
+</footer>
+<script type="text/javascript" src="assets/js/scripts.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="_plugins/bootstrap/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+<script src="_plugins/bootstrap/js/html5shiv.min.js"></script>
+<script src="_plugins/bootstrap/js/respond.min.js"></script>
+<![endif]-->
+</body>
+</html>

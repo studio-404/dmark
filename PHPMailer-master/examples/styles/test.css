@@ -1,0 +1,4 @@
+body{ background-image:url('http://book.404.ge/public/img/bg.png'); }
+font{ width:88%; float:left; margin-left:5%; background:#ffffff; padding:1%; }
+font i{ color:#555555; }
+font i a{ width:120px; height:35px; line-height:35px; float:left; margin:10px 0 10px 0; background:#e08a44; color:white; text-align:center; text-decoration:none; }

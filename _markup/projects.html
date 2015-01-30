@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dmark Markup</title>	
+	<script type="text/javascript" src="assets/js/jquery-1.11.2.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="_plugins/bootstrap/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="_plugins/bootstrap/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/general.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/en.css" />
+    
+    <link rel="stylesheet" type="text/css" href="_plugins/content-filter/css/style.css" />
+    <!--filter Jquery START-->
+    <script src="_plugins/content-filter/js/modernizr.js"></script>
+    <!--filter Jquery END-->
+    <script type="text/javascript">
+    // scroll loader
+    $(window).scroll(function() {         
+    	if($(window).scrollTop() + $(window).height() == $(document).height()) 
+    	{
+    		loadProjects();
+    	}
+	});
+    </script>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="_plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="_plugins/bootstrap/js/html5shiv.min.js"></script>
+	<script src="_plugins/bootstrap/js/respond.min.js"></script>
+	<![endif]-->
+
+	<!--filter Jquery START-->
+	<script src="_plugins/content-filter/js/jquery-2.1.1.js"></script>
+	<script src="_plugins/content-filter/js/jquery.mixitup.min.js"></script>
+	<script src="_plugins/content-filter/js/main.js"></script>
+	<!--filter Jquery END-->
+</head>
+<body>
+
+<header>
+	<div class="container error-404-containerProject">		
+		<a href="index.html" class="llogo"></a>
+		<a href="#" class="langs">Ge</a>
+
+
+		<div id="navigation">
+			<div class="toggle">
+				<div class="toggleline"></div>
+				<div class="toggleline"></div>
+				<div class="toggleline"></div>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#">Georgian</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+</header>
+<nav>
+	<ul>
+		<li class="active"><a href="projects.html">Projects</a></li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="team.html">Team</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav><div class="clearer"></div>
+<main>
+	<!-- <div class="filterx error-404-margintop20 cd-tab-filter-wrapper">
+		<div class="cd-tab-filter">
+			<div class="selected placeholder">
+				<a data-type="a" href="#0">All</a>
+			</div>
+			<ul class="lists cd-filters">
+				<li>
+				<a href="#0" data-filter=".color-1" data-type="a" class="selected filter">
+					All
+				</a>
+				</li>
+				<li data-filter=".color-1" class="filter">
+					<a href="#0" data-type="color-1">Color 1</a></li>
+				<li data-filter=".color-2" class="filter">
+					<a href="#0" data-type="color-2">Color 2</a>
+				</li>
+			</ul>
+		</div>
+	</div> -->
+	<div class="container error-404-projectContainer cd-main-content">
+	<div class="filterx error-404-margintop20">
+		<div class="selectedx menuSelected">All Works</div>
+	</div>		
+	<div class="cd-tab-filter">
+		<ul class="cd-filters">
+			<li>
+				<a class="selected filter" href="#all" data-type="a">All Works</a>
+			</li>
+			<li data-filter=".public" class="filter">
+				<a href="#public" data-type="public">Public</a></li>
+			<li data-filter=".commercial" class="filter">
+				<a href="#commercial" data-type="commercial">Commercial</a>
+			</li>
+			<li data-filter=".housing" class="filter">
+				<a href="#housing" data-type="housing">Housing</a>
+			</li>
+			<li data-filter=".competition" class="filter">
+				<a href="#competition" data-type="competition">Competition</a>
+			</li>
+			<li data-filter=".interior" class="filter">
+				<a href="#interior" data-type="interior">Interior</a>
+			</li>
+			<li data-filter=".realized" class="filter">
+				<a href="#realized" data-type="realized">Realized</a>
+			</li>
+		</ul> <div class="clearer"></div>
+	</div> 
+
+	<div class="clearer"></div>
+		<section class="cd-gallery">
+			<ul class="row" id="gridx">
+				<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix public check1 radio2 option3">
+					<a href="project_view.html">
+						<img src="assets/img/project1.png" width="100%" alt="" />
+						<p>Bussines public</p>
+					</a>
+				</li>
+				<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix public check1 radio2 option3">
+					<a href="project_view.html">
+						<img src="assets/img/project1.png" width="100%" alt="" />
+						<p>Bussines public</p>
+					</a>
+				</li>
+				<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix public check1 radio2 option3">
+					<a href="project_view.html">
+						<img src="assets/img/project1.png" width="100%" alt="" />
+						<p>Bussines public</p>
+					</a>
+				</li>
+				<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix public check1 radio2 option3">
+					<a href="project_view.html">
+						<img src="assets/img/project1.png" width="100%" alt="" />
+						<p>Bussines public</p>
+					</a>
+				</li>
+				<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix commercial check1 radio2 option3">
+					<a href="project_view.html">
+						<img src="assets/img/project1.png" width="100%" alt="" />
+						<p>Bussines Commercial</p>
+					</a>
+				</li>
+				<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix commercial check1 radio2 option3">
+					<a href="project_view.html">
+						<img src="assets/img/project1.png" width="100%" alt="" />
+						<p>Bussines Commercial</p>
+					</a>
+				</li>
+				<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix commercial check1 radio2 option3">
+					<a href="project_view.html">
+						<img src="assets/img/project1.png" width="100%" alt="" />
+						<p>Bussines Commercial</p>
+					</a>
+				</li>
+
+				<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix housing check1 radio2 option3">
+					<a href="project_view.html">
+						<img src="assets/img/project1.png" width="100%" alt="" />
+						<p>Bussines housing</p>
+					</a>
+				</li>
+				<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix housing check1 radio2 option3">
+					<a href="project_view.html">
+						<img src="assets/img/project1.png" width="100%" alt="" />
+						<p>Bussines housing</p>
+					</a>
+				</li>
+				<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix housing check1 radio2 option3">
+					<a href="project_view.html">
+						<img src="assets/img/project1.png" width="100%" alt="" />
+						<p>Bussines housing</p>
+					</a>
+				</li>
+				
+			</ul>
+			<div class="cd-fail-message">No results found</div>
+		</section> 
+
+	</div>
+</main>
+
+<footer>
+	<div class="leftside">&copy;2014 Dmark - Terms & Privacy</div>
+	<div class="rightside">Getsadze Design</div>
+	<div class="clearer"> </div>
+</footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dmark Markup</title>	
+	<script type="text/javascript" src="assets/js/jquery-1.11.2.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="_plugins/bootstrap/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="_plugins/bootstrap/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/general.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/en.css" />
+    <!--Rotate Jquery START-->
+    <script type="text/javascript" src="assets/js/jQueryRotate.js"></script>
+    <script type="text/javascript" src="_plugins/quicksand-master/jquery.easing.1.3.js"></script>
+    <!--Rotate Jquery END-->
+    <script type="text/javascript">
+    // scroll loader
+    $(window).scroll(function() {         
+    	if($(window).scrollTop() + $(window).height() == $(document).height()) 
+    	{
+    		loadProjects();
+    	}
+	});
+    </script>
+</head>
+<body>
+
+<header>
+	<div class="container error-404-containerProject">		
+		<a href="index.html" class="llogo"></a>
+		<a href="#" class="langs">Ge</a>
+
+
+		<div id="navigation">
+			<div class="toggle">
+				<div class="toggleline"></div>
+				<div class="toggleline"></div>
+				<div class="toggleline"></div>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="#">Georgian</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+</header>
+<nav>
+	<ul>
+		<li class="active"><a href="projects.html">Projects</a></li>
+		<li><a href="events.html">Events</a></li>
+		<li><a href="team.html">Team</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav><div class="clearer"></div>
+<main>
+	<div class="filterx error-404-margintop20">
+		<div class="selected">All Works</div>
+		<ul class="lists">
+			<li><a href="javascript:filt('#all')" class="all">All Works</a></li>
+			<li><a href="javascript:filt('#public')" class="public">Public</a></li>
+			<li><a href="javascript:filt('#commercial')" class="commercial">Commercial</a></li>
+			<li><a href="javascript:filt('#housing')" class="housing">Housing</a></li>
+			<li><a href="javascript:filt('#competition')" class="competition">Competition</a></li>
+			<li><a href="javascript:filt('#interior')" class="interior">Interior</a></li>
+			<li><a href="javascript:filt('#realized')" class="realized">Realized</a></li>
+		</ul>
+	</div>
+	<div class="container error-404-projectContainer">
+		<div class="row" id="grid">
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="public">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>Bussines Center</p>
+				</a>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="public">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>Bussines Center</p>
+				</a>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="commercial">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>Bussines Center</p>
+				</a>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="housing">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>Shopping Mall</p>
+				</a>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="housing">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>Shopping Mall</p>
+				</a>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="housing">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>Shopping Mall</p>
+				</a>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="housing">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>Shopping Mall</p>
+				</a>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="competition">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>Shopping Mall</p>
+				</a>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="competition">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>TBC Headquarters</p>
+				</a>
+			</div>
+
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="competition">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>TBC Headquarters</p>
+				</a>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="competition">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>TBC Headquarters</p>
+				</a>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="competition">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>TBC Headquarters</p>
+				</a>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="competition">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>TBC Headquarters</p>
+				</a>
+			</div>
+			<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item" data-filter="competition">
+				<a href="project_view.html">
+					<img src="assets/img/project1.png" width="100%" alt="" />
+					<p>TBC Headquarters</p>
+				</a>
+			</div>
+			
+		</div>
+	</div>
+</main>
+
+<footer>
+	<div class="leftside">&copy;2014 Dmark - Terms & Privacy</div>
+	<div class="rightside">Getsadze Design</div>
+	<div class="clearer"> </div>
+</footer>
+
+<script type="text/javascript" src="assets/js/scripts.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="_plugins/bootstrap/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+<script src="_plugins/bootstrap/js/html5shiv.min.js"></script>
+<script src="_plugins/bootstrap/js/respond.min.js"></script>
+<![endif]-->
+</body>
+</html>
