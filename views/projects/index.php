@@ -36,7 +36,9 @@ if(!isset($_GET["news_titile"]) && !isset($_GET["catalog"])) :
 			<li data-filter=".realized" class="filter">
 				<a href="<?=CURRENT_URL?>#realized" data-type="realized">Realized</a>
 			</li>
-		</ul> <div class="clearer"></div>
+		</ul> 
+		<div class="closeable"></div>
+		<div class="clearer"></div>
 	</div> 
 
 	<div class="clearer"></div>
@@ -83,11 +85,8 @@ if(isset($_GET["news_titile"]) && isset($_GET["catalog"])) :
 		</div>
 		<div class="col-lg-10 col-md-10">
 
-			<div id="owl-demo" class="owl-carousel owl-theme error-404-owl">
+			<div id="owl-demo" class="owl-carousel owl-theme error-404-owl studio-404-projectOwlSlider">
 			<?php
-			// echo "<pre>"; 
-			// print_r($this->projectImgs);
-			// echo "</pre>"; 
 			$x = 0;
 			foreach($this->projectImgs as $image) : 
 			?>

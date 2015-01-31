@@ -349,6 +349,16 @@ footer .rightside{
 #navigation{
 	display: none;
 }
+.closeable{
+	margin: 0;
+	padding: 0;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	cursor: pointer;
+}
 
 /*
 ## project view
@@ -382,6 +392,12 @@ footer .rightside{
 .gridx li{
 	height: 250px !important;
 }
+.studio-404-projectOwlSlider .owl-controls{
+	display: block !important;
+}
+.error-404-contactOwlSlider .owl-controls{
+	display: none !important;
+}
 /*
 team view Start
 */
@@ -409,6 +425,9 @@ News Start
 	margin: 0 0 10px 0; 
 	padding: 10px 0;
 	border-bottom: solid 1px #8c8c8c; 
+}
+.error-404-article:last-child{
+	border-bottom: none;
 }
 .error-404-newsContainer .error-404-article:first-child{
 	padding: 0 0 10px 0px;
@@ -756,5 +775,8 @@ Contact page start
 	}
 	.error-404-prolinks{
 		margin: 30px 0 0 0 !important;
+	}
+	.closeable{
+		display: none !important;
 	}
 }

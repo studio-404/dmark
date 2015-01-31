@@ -8,7 +8,7 @@ $lang_file = ADMIN_FOLDER."/cache/".$_GET['lang']."_l.php";
 	<div class="row">	
 		
 		<div class="col-lg-12 col-md-12 error-404-contactOwl">
-			<div id="owl-demo" class="owl-carousel owl-theme error-404-owl">
+			<div id="owl-demo" class="owl-carousel owl-theme error-404-owl error-404-contactOwlSlider">
 			<?php
 			echo $this->get_slide_array;
 			?>

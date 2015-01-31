@@ -84,7 +84,7 @@ body{ margin:0; padding:0; background-image:url('../images/bg.png'); background-
 .leftside .nav li .sub_menu .sub_active{ text-decoration:underline; }
 .leftside .nav li .slided{ display:block; }
 .leftside .nav li .sub_menu li{ width:288px; line-height:20px; }
-.inside-navigation{ margin:45px 0 0 0; width:800px; float:right;  }
+.inside-navigation{ margin:0; width:800px; float:right; visibility: hidden; }
 .inside-navigation ul{ width:100%; list-style-type:none; }
 .inside-navigation ul li{ width:30px; height:30px; background:#f2f2f2; float:left; margin:15px 15px 5px 0px; -webkit-border-radius: 2px;-moz-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: #B3B3B3 2px 2px 2px;-moz-box-shadow: #B3B3B3 2px 2px 2px; box-shadow: #B3B3B3 2px 2px 2px; position:relative }
 .inside-navigation ul li a{ width:30px; height:30px; display:block; }
