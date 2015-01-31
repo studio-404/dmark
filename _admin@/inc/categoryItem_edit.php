@@ -656,12 +656,15 @@ $select_languages = select_languages();
 			<div class="boxes">
 				<label for="type"><i><?=l("type")?></i> <font color="#f00">*</font></label>
 				<select name="post[<?=$select_languages["language"][$y-1]?>][p_type]">
-					<option value="public" <?=(isset($rows['p_type']) && $rows['p_type']=="public") ? 'selected="selected"' : '';?>><?=l("public")?></option>
-					<option value="commercial" <?=(isset($rows['p_type']) && $rows['p_type']=="commercial") ? 'selected="selected"' : '';?>><?=l("commercial")?></option>
-					<option value="housing" <?=(isset($rows['p_type']) && $rows['p_type']=="housing") ? 'selected="selected"' : '';?>><?=l("housing")?></option>
-					<option value="competition" <?=(isset($rows['p_type']) && $rows['p_type']=="competition") ? 'selected="selected"' : '';?>><?=l("competition")?></option>
-					<option value="interior" <?=(isset($rows['p_type']) && $rows['p_type']=="interior") ? 'selected="selected"' : '';?>><?=l("interior")?></option>
-					<option value="realized" <?=(isset($rows['p_type']) && $rows['p_type']=="realized") ? 'selected="selected"' : '';?>><?=l("realized")?></option>
+					<?php
+					$sfilter = mysql_query("SELECT `p_title`,`p_client` FROM `website_catalogs_items` WHERE `catalog_id`=4 AND `langs`='".mysql_real_escape_string($_GET["lang"])."' AND `status`!=1 ");
+
+					while($srows = mysql_fetch_array($sfilter)){
+						$selected = (isset($rows['p_type']) && $rows['p_type']==$srows["p_client"]) ? 'selected="selected"' : '';
+						echo '<option value="'.$srows["p_client"].'" '.$selected.'>'.$srows["p_title"].'</option>';
+						
+					}
+					?>
 				</select>
 				<div class="checker_none typex" onclick="$('.mtype').fadeIn('slow');">
 						<div class="msg mtype"><?=l("filltype")?> !</div>
@@ -769,8 +772,134 @@ $select_languages = select_languages();
 </form>	
 </div>
 <div class="clearer"></div><br />
-
-
+<?php 
+endif;
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+if($_GET["edit"]==4) : 
+/*change permition*/
+if(isset($_POST["s"])){ change_permition("website_catalogs_items",false,$_GET["item"]); insert_action("catalogItem","change permition",$_GET["item"]); }
+/* check if have permition */
+$admin_permition = check_if_permition("website_catalogs_items",false,$_GET["item"]);
+if(isset($_POST["post"]) && $admin_permition)
+{
+	insert_action("catalog","edit catalog item",$_GET['item']);
+	// image upload
+	foreach($_POST["post"] as $key => $value){ 
+		if(!empty($value["p_title"]) && !empty($value["p_client"])){			
+			
+			$update = mysql_query("UPDATE `website_catalogs_items` SET 
+												`p_title`='".strip($value["p_title"])."', 
+												`p_client`='".strip($value["p_client"])."' 
+												WHERE 
+												`idx`='".(int)$_GET['item']."' AND 
+												`catalog_id`='".(int)$_GET['edit']."' AND 
+												`langs`='".strip($key)."' 
+												");
+		}else{
+			$msg = l("requiredfields");
+			$theBoxColore = "red";
+		}		
+	}
+	if(!$msg){
+		$msg = l("done");
+		$theBoxColore = "orange";
+		if(mysql_error()){
+			$msg = l("erroroccurred");
+			$theBoxColore = "red";
+		}
+	}
+	
+}
+$select_languages = select_languages();
+?>
+<div class="cont">
+	<?php
+	$count = count($select_languages["name"]);
+	$x = 1;
+	if($count){
+		echo '<ul>';
+		foreach($select_languages["name"] as $name){
+			echo '<li id="tab-'.$x.'" onclick="show(this, \'content-'.$x.'\');">'.$name.'</li>';
+			$x++;
+		}
+		echo '</ul>';
+	}
+	?>
+	
+<form action="" method="post" enctype="multipart/form-data">
+	<?php 
+	if($count){		
+		$y = 1;
+		foreach($select_languages["name"] as $name){
+		$select = mysql_query("
+		SELECT 
+		`website_catalogs_items`.*, 
+		`website_catalogs_attachment`.`connect_id` AS cid 
+		FROM 
+		`website_catalogs_items`, `website_catalogs_attachment` 
+		WHERE 
+		`website_catalogs_attachment`.`catalog_id`='".(int)$_GET['edit']."' AND 
+		`website_catalogs_attachment`.`langs`='".strip($select_languages["language"][$y-1])."' AND 
+		`website_catalogs_attachment`.`catalog_id`=`website_catalogs_items`.`catalog_id` AND 
+		`website_catalogs_items`.`langs`='".strip($select_languages["language"][$y-1])."' AND 
+		`website_catalogs_items`.`idx`='".(int)$_GET['item']."' AND 
+		`website_catalogs_items`.`status`!=1 
+		");
+		$rows = mysql_fetch_array($select);
+	?>
+		<div id="content-<?=$y?>" class="content">
+			<?php
+			if($msg) :
+			?>
+				<div class="boxes">
+				<div class="error_msg <?=$theBoxColore?>"><i><?=$msg?> !</i></div>
+				</div>
+			<?php 
+			endif;
+			?>
+			<?php
+			if(!$admin_permition){ 
+				echo '<div class="boxes">';
+				echo '<div class="error_msg red"><i>'.l("noRight").' !</i></div>';
+				echo '</div>';
+			}
+			?>
+			
+			<div class="boxes">
+				<label for="title"><i><?=l("filter")?></i> <font color="#f00">*</font></label>
+				<input type="text" name="post[<?=$select_languages["language"][$y-1]?>][p_title]" class="title" id="title" value="<?=(isset($rows['p_title'])) ? $rows['p_title'] : "";?>" />
+				<div class="checker_none namelname" onclick="$('.mtitle').fadeIn('slow');">
+						<div class="msg mtitle"><?=l("filltitle")?> !</div>
+				</div>
+			</div><div class="clearer"></div>
+			
+			<div class="boxes">
+				<label for="client"><i><?=l("url")?></i> <font color="#f00">*</font></label>
+				<input type="text" name="post[<?=$select_languages["language"][$y-1]?>][p_client]" class="client" id="client" value="<?=(isset($rows['p_client'])) ? $rows['p_client'] : "";?>" />
+				<div class="checker_none client" onclick="$('.mclient').fadeIn('slow');">
+						<div class="msg mclient"><?=l("fillclient")?> !</div>
+				</div>
+			</div><div class="clearer"></div>
+			
+			<div class="boxes">
+				<?php $_SESSION["token"]=randomPassword(16); ?>
+				<a href="javascript:void(0)" onclick="openPop('contentRight.php?lang=<?=$_GET['lang']?>&idx=<?=$_GET["item"]?>&t=website_catalogs_items&weblang=<?=$_GET["lang"]?>&token=<?=$_SESSION["token"]?>')"><?=l("contentupdateright")?></a>
+			</div><div class="clearer"></div>	
+			
+			<div class="boxes">				
+				<input type="submit" class="submit" id="submit" value="<?=l("edit")?>" />
+			</div><div class="clearer"></div><br />
+		</div>
+	<?php 
+			$select = "";
+			$rows = "";
+			$y++;
+		}
+	}
+	?>
+</form>	
+</div>
+<div class="clearer"></div><br />
 <?php 
 endif;
 ?>

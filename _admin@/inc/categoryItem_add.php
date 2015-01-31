@@ -315,12 +315,12 @@ if(isset($_POST['p_date'],$_POST['p_title']))
 			<div class="boxes">
 				<label for="type"><i><?=l("type")?></i> <font color="#f00">*</font></label>
 				<select name="p_type">
-					<option value="public"><?=l("public")?></option>
-					<option value="commercial"><?=l("commercial")?></option>
-					<option value="housing"><?=l("housing")?></option>
-					<option value="competition"><?=l("competition")?></option>
-					<option value="interior"><?=l("interior")?></option>
-					<option value="realized"><?=l("realized")?></option>
+					<?php
+					$sfilter = mysql_query("SELECT `p_title`,`p_client` FROM `website_catalogs_items` WHERE `catalog_id`=4 AND `langs`='".mysql_real_escape_string($_GET["lang"])."' AND `status`!=1 ");
+					while($srows = mysql_fetch_array($sfilter)){
+						echo '<option value="'.$srows["p_client"].'">'.$srows["p_title"].'</option>';
+					}
+					?>
 				</select>
 				<div class="checker_none typex" onclick="$('.mtype').fadeIn('slow');">
 						<div class="msg mtype"><?=l("filltype")?> !</div>
@@ -393,6 +393,105 @@ if(isset($_POST['p_date'],$_POST['p_title']))
 				<input type="text" name="p_adviser" class="adviser" id="adviser" value="<?=(isset($_POST['p_adviser'])) ? $_POST['p_adviser'] : "";?>" />
 				<div class="checker_none adviser" onclick="$('.madviser').fadeIn('slow');">
 						<div class="msg madviser"><?=l("filladviser")?> !</div>
+				</div>
+			</div><div class="clearer"></div>
+
+			<div class="boxes">				
+				<input type="submit" class="submit" id="submit" value="<?=l("add")?>" />
+				<input type="reset" class="reset" id="reset" value="<?=l("clear")?>" />	
+			</div><div class="clearer"></div><br />
+
+</form>
+
+<?php
+endif;
+?>
+
+<?php
+if($_GET["addid"]=="4") : 
+
+
+if(isset($_POST['p_title'],$_POST['p_client']))
+{	
+	if(!empty($_POST['p_title']) && !empty($_POST['p_client']))
+	{	
+			insert_action("catalog","add catalog item","0");
+						
+			$p_title = $_POST["p_title"]; 
+			$p_client = $_POST["p_client"]; 
+			$select = mysql_query("SELECT MAX(idx) AS maxi FROM `website_catalogs_items`");
+			$getMax = mysql_fetch_array($select);
+			$Max = $getMax['maxi']+1;
+			
+			if(!$msg){
+				$select_languages = select_languages(); 
+				foreach($select_languages["language"] as $language){ 
+					$admin_id = $_SESSION['admin_id'];
+					$grand_id = implode(",",grand_admins());
+					if(!in_array($admin_id,grand_admins())){
+						$access_admins = $grand_id.",".$admin_id;
+					}else{
+						$access_admins = $grand_id;
+					}
+					$insert = mysql_query("INSERT INTO `website_catalogs_items` SET 
+														`idx`='".(int)$Max."', 
+														`catalog_id`='4', 
+														`p_title`='".strip($p_title)."',  
+														`p_client`='".strip($p_client)."',  
+														`langs`='".strip($language)."', 
+														`access_admins`='".strip($access_admins)."'
+														"); 
+				}
+			} 
+			
+			if(!$insert)
+			{
+				$msg = l("erroroccurred");
+				$theBoxColore = "red";
+			}
+			else
+			{
+				_refresh_404("/".ADMIN_FOLDER."/".$_GET["lang"]."/edit/categoryItem/".$_GET["addid"]."/".$Max);
+				exit();
+				$msg = l("done");
+				$theBoxColore = "orange";	
+			}
+	}
+	else
+	{
+		$msg = l("requiredfields");
+		$theBoxColore = "red";
+	}
+}
+
+?>
+
+<form action="" method="post" enctype="multipart/form-data">
+			<?php
+			if($msg) :
+			?>
+			<div class="boxes">
+				<div class="error_msg <?=$theBoxColore?>"><i><?=$msg?> !</i></div>
+			</div>
+			<?php 
+			endif;
+			?>
+			
+
+			<div class="boxes">
+				<label for="title"><i><?=l("filter")?></i> <font color="#f00">*</font></label>
+				<input type="text" name="p_title" class="title" id="title" value="<?=(isset($_POST['p_title'])) ? $_POST['p_title'] : "";?>" />
+				<div class="checker_none namelname" onclick="$('.mtitle').fadeIn('slow');">
+						<div class="msg mtitle"><?=l("fillfilter")?> !</div>
+				</div>
+			</div><div class="clearer"></div>
+
+			
+			<div class="boxes">
+				<label for="client"><i><?=l("url")?></i> <font color="#f00">*</font></label>
+				<input type="text" name="p_client" class="client" id="client" value="<?=(isset($_POST['p_client'])) ? $_POST['p_client'] : "";?>" />
+				<div class="checker_none client" onclick="$('.mclient').fadeIn('slow');">
+						<div class="msg mclient"><?=l("fillgotourl")?> !</div>
 				</div>
 			</div><div class="clearer"></div>
 

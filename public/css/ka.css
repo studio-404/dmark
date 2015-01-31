@@ -1,20 +1,23 @@
 .error-404-text h1{
 	margin: 0;
 	padding: 0;
-	line-height: 62px;
-	font-size: 62px;
+	line-height: 60px;
+	font-size: 50px;
 	color: #ffffff;
-	font-family: 'Montserrat-bold';
+	font-family: 'geoMontserrat';
 	font-weight: bold;
 	text-align: left;
 }
+.cd-tab-filter li a{
+	font-family: 'geoMontserrat' !important;
+}
 .error-404-text p{
-	margin: 20px 0 0 0;
+	margin: 25px 0 0 0;
 	padding: 0;
 	line-height: 44px;
-	font-size: 44px;
+	font-size: 30px;
 	color: #ffffff;
-	font-family: 'Montserrat-bold';
+	font-family: 'geoMontserrat';
 	font-weight: bold;
 	text-align: left;
 }
@@ -23,15 +26,15 @@
 	margin: 0;
 	padding: 0 50px 0 0;
 	line-height: 28px;
-	font-size: 28px;
+	font-size: 25px;
 	color: #ffffff;
-	font-family: 'Montserrat';
+	font-family: 'geoMontserrat';
 	text-align: left;
 	position: relative;
 }
 .langs{
 	font-size: 16px;
-	font-family: 'Montserrat';
+	font-family: 'geoMontserrat';
 	text-align: center;
 }
 nav ul li a{
@@ -40,7 +43,7 @@ nav ul li a{
 	color: #cccccc; 
 	font-size: 20px; 
 	line-height: 20px;
-	font-family: 'Montserrat';
+	font-family: 'geoMontserrat';
 	text-decoration: none;
 }
 nav ul li a:active{
@@ -52,20 +55,20 @@ main .filterx{
 	padding: 0px 10px;
 	font-size: 16px;
 	line-height: 25px;
-	font-family: 'Montserrat'; 
+	font-family: 'geoMontserrat'; 
 	color: #ffffff;
 }
 main .filterx li a{
 	padding: 0px 10px;
 	font-size: 16px;
 	line-height: 25px;
-	font-family: 'Montserrat'; 
+	font-family: 'geoMontserrat'; 
 	color: #ffffff;
 }
 .error-404-item p{
 	padding: 10px 0px;
 	margin: 0 0 20px 0;
-	font-family: 'Montserrat';
+	font-family: 'geoMontserrat';
 	font-size: 13px;
 	color: #000000; 
 	line-height: 13px;
@@ -77,9 +80,9 @@ main .filterx li a{
 		text-align:center;
 		display:block;
 		width:100%;
-		font-family: 'Montserrat';
-		font-size: 41px;
-		line-height: 65px;
+		font-family: 'geoMontserrat';
+		font-size: 28px;
+		line-height: 55px;
 		text-decoration:none;
 		color:#ffffff;
 		padding: 0 30px;
@@ -88,7 +91,7 @@ main .filterx li a{
 	width: 100%;
 	display: block;
 	text-decoration: none;
-	font-family: 'Montserrat';
+	font-family: 'geoMontserrat';
 	font-size: 16px;
 	color: #ffffff;
 }
@@ -96,7 +99,7 @@ main .filterx li a{
 	margin: 10px 0px;
 	padding: 0;
 	width: 100%;
-	font-family: 'Montserrat-bold';
+	font-family: 'geoMontserrat';
 	font-size: 22px;
 	color: #000000;
 	font-weight: bold;
@@ -106,7 +109,7 @@ main .filterx li a{
 	margin: 0 0 10px 0 !important;
 	padding: 0;
 	width: 100%;
-	font-family: 'Montserrat';
+	font-family: 'geoMontserrat';
 	font-size: 22px;
 	color: #000000;
 	font-weight: bold;
@@ -117,7 +120,7 @@ main .filterx li a{
 	padding: 0 0 10px 0;
 	width: 100%;
 	line-height: 13px;
-	font-family: 'Montserrat-bold';
+	font-family: 'geoMontserrat';
 	font-size: 13px;
 	font-weight: bold;
 	color: #000000;
@@ -127,7 +130,7 @@ main .filterx li a{
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	font-family: 'Montserrat';
+	font-family: 'geoMontserrat';
 	font-size: 13px;
 	line-height: 21px;
 	clear: both;
@@ -149,10 +152,10 @@ main .filterx li a{
 }
 .error-projViewLeft .error-404-projViewText .error-404-value{
 	color: #000000;	
-	font-family: 'Montserrat';
+	font-family: 'geoMontserrat';
 }
 .error-projViewLeft .error-404-projViewText b, .error-projViewLeft .error-404-projViewText strong{
-	font-family: 'Montserrat-bold';
+	font-family: 'geoMontserrat';
 }
 .error-projViewLeft .error-404-projViewText hr{
 	margin: 10px 0;
@@ -165,21 +168,21 @@ main .filterx li a{
 	margin: 5px 0 0 0;
 	padding: 0;
 	font-size: 16px;
-	font-family: 'Montserrat-bold';
+	font-family: 'geoMontserrat';
 	line-height: 16px; 
 }
 .error-team-item p{
 	margin: 5px 0 0 0;
 	padding: 0;
 	font-size: 13px;
-	font-family: 'Montserrat'; 
+	font-family: 'geoMontserrat'; 
 	line-height: 13px; 
 	border-bottom: none !important;
 }
 .error-404-teamView h1{
 	margin: 45px 0 0 0;
 	padding: 0;
-	font-family: 'Montserrat-bold';
+	font-family: 'geoMontserrat';
 	font-size: 16px;
 	color: #000000;
 	line-height: 18px;
@@ -188,7 +191,7 @@ main .filterx li a{
 .error-404-teamView h2{
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat'; 
+	font-family: 'geoMontserrat'; 
 	font-size: 13px;
 	color: #000000;
 	line-height: 18px;
@@ -196,7 +199,7 @@ main .filterx li a{
 .error-404-teamView strong, .error-404-teamView b{
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat-bold';
+	font-family: 'geoMontserrat';
 	font-size: 13px;
 	color: #000000;
 	line-height: 18px;
@@ -204,7 +207,7 @@ main .filterx li a{
 .error-404-teamView span, .error-404-teamView p{
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat'; 
+	font-family: 'geoMontserrat'; 
 	font-weight: lighter;
 	font-size: 13px;
 	color: #000000;
@@ -213,7 +216,7 @@ main .filterx li a{
 .error-404-newsText h2 a{
 	margin: 0; 
 	padding: 0;
-	font-family: 'Montserrat-bold';
+	font-family: 'geoMontserrat';
 	font-size: 18px;
 	line-height: 20px;
 	color: #000000;
@@ -221,7 +224,7 @@ main .filterx li a{
 .error-404-newsText h2 span{
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat';
+	font-family: 'geoMontserrat';
 	font-size: 16px; 
 	line-height: 20px;
 	color: #bebebe; 
@@ -230,19 +233,19 @@ main .filterx li a{
 .error-404-newsText p{
 	margin: 0;
 	padding: 0;
-	font-family: 'Montserrat';
+	font-family: 'geoMontserrat';
 	font-size: 13px; 
 	color: #000000;	
 }
 .error-404-contactCols h2{
 	margin: 0 0 10px 0;
 	padding: 0; 
-	font-family: 'Montserrat-bold';
+	font-family: 'geoMontserrat';
 	font-size: 16px; 
 	color: #000000; 
 }
 .error-404-contactCols form{
-	font-family: 'Montserrat';
+	font-family: 'geoMontserrat';
 }
 .error-404-contactCols form .msg{
 	margin: 0; 
@@ -257,7 +260,7 @@ main .filterx li a{
 .error-404-contactCols p{
 	margin:0px;
 	padding: 0px;  
-	font-family: 'Montserrat';
+	font-family: 'geoMontserrat';
 	font-size: 16px; 
 	color: #000000; 
 }
@@ -265,6 +268,6 @@ main .filterx li a{
 footer div{
 	font-size: 11px;
 	font-weight: bold;
-	font-family: 'Montserrat'; 
+	font-family: 'geoMontserrat'; 
 	color: #000000;
 }

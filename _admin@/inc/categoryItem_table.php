@@ -64,7 +64,7 @@ if($_GET["gallery_id"]==1) :
 <tr>
 <th width="20"><input type="checkbox" name="sel" class="checkall" value="0" onclick="checkall()"></th>
 <th><?=cut_text(l("title"),40)?></th>
-<th><?=cut_text(l("type"),40)?></th>
+<th><?=cut_text(l("filter"),40)?></th>
 <th width="100"><?=cut_text(l("action"),40)?></th>				
 </tr>			
 <?php
@@ -98,6 +98,48 @@ $ap = check_if_permition("website_catalogs_items",false,$rows['wni_idx']);
 <?php
 endif;
 ?>
+
+<?php
+if($_GET["gallery_id"]==4) :
+?>
+<table class="table">
+<tr>
+<th width="20"><input type="checkbox" name="sel" class="checkall" value="0" onclick="checkall()"></th>
+<th><?=cut_text(l("filter"),40)?></th>
+<th width="100"><?=cut_text(l("action"),40)?></th>				
+</tr>			
+<?php
+$fecth_admins = mysql_query($p[0]);
+$x=1;
+while($rows = mysql_fetch_array($fecth_admins)){
+$ap = check_if_permition("website_catalogs_items",false,$rows['wni_idx']);
+?>
+<tr>
+<td>
+<?php if($ap) :?>
+<input type="checkbox" name="sel[]" class="all" value="<?=$rows['wni_idx']?>">
+<?php endif; ?>
+</td>
+<td><?=cut_text($rows['wni_title'],40)?></td>
+<td>
+	<div class="icon-edit" title="<?=l("edit")?>"><a href="<?=$_GET['lang']?>/edit/<?=$_GET['show']?>/<?=$_GET['gallery_id']?>/<?=$rows['wni_idx']?>"></a></div>
+	<?php if($ap) :?>
+	<div class="icon-delete" title="<?=l("delete")?>"><a href="javascript:void(0)" onclick="openPop('delete_newsItem.php?edit=<?=$rows['wni_idx']?>&lang=<?=$_GET['lang']?>')"></a></div>
+	<?php endif; ?>
+</td>
+</tr>
+<?php 
+	$x++;
+?>
+<?php
+}
+?>
+</table>
+<?php 
+endif;
+?>
+
+
 <div class="clearer"></div>
 <ul class="main_actions">
 	<li><div class="icon-add"></div><a href="<?=$_GET['lang']?>/add/categoryItem/<?=$_GET['gallery_id']?>"><?=l("addcatalog")?></a></li>

@@ -17,7 +17,7 @@
 			</div>
 
 			<div class="menu">
-				<?=$this->main_navigation?>
+				<?=$this->main_navigation_mobile?>
 			</div>
 		</div>
 

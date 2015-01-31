@@ -18,6 +18,7 @@ class render_module extends module {
         $this->msg = $this->out; 
 		$this->main_navigation = $this->main_nav_module();
 		$this->main_navigation_bottom = $this->main_nav_module(false);
+		$this->main_navigation_mobile = $this->main_nav_module(false,true);
 		$this->schools = parent::schools(); 		
 		$this->text_idx = parent::content("idx");
 		$this->text_title = parent::content("title");
@@ -35,7 +36,7 @@ class render_module extends module {
 		
     }
 	
-	function main_nav_module($sub_=true){
+	function main_nav_module($sub_=true,$langEl=false){
 		$out = "";
 		$main_navigation = parent::main_navigation();
 		if($main_navigation){  
@@ -82,7 +83,16 @@ class render_module extends module {
 					endif;
 					$out .= '</li>';
 				}
-				$out .= "</ul>";
+
+			$return_url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+			$find = "/".$_GET["lang"]."/";
+			$replace = ($_GET["lang"]=="ka") ? "/en/" : "/ka/"; 
+			$l = str_replace($find,$replace,$return_url);
+			$n = (isset($_GET["lang"]) && $_GET["lang"]=="en") ? "Georgian" : "English";
+			if($langEl) :
+			$out .= '<li class="lastLangElement"><a href="'.$l.'">'.$n.'</a>';
+			endif;
+			$out .= "</ul>";
 			}
 		}else{
 			$out = "";

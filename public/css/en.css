@@ -8,6 +8,9 @@
 	font-weight: bold;
 	text-align: left;
 }
+.cd-tab-filter li a{
+	font-family: 'Montserrat' !important;
+}
 .error-404-text p{
 	margin: 20px 0 0 0;
 	padding: 0;

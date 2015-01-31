@@ -25,6 +25,19 @@
 
 }
 
+@font-face {
+    font-family: 'geoMontserrat';
+    src: url('http://dmark.ge/public/fonts/bpg_sans_web.eot');
+    src: url('http://dmark.ge/public/fonts/bpg_sans_web.eot?#iefix') format('embedded-opentype'),
+         url('http://dmark.ge/public/fonts/bpg_sans_web.woff2') format('woff2'),
+         url('http://dmark.ge/public/fonts/bpg_sans_web.woff') format('woff'),
+         url('http://dmark.ge/public/fonts/bpg_sans_web.ttf') format('truetype'),
+         url('http://dmark.ge/public/fonts/bpg_sans_web.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Open Sans';

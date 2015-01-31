@@ -9,6 +9,7 @@ class render extends controller {
 		$this->view->studio404_poll = $module->studio404_poll;
         $this->view->msg = $module->msg;
         $this->view->main_navigation = $module->main_navigation;
+        $this->view->main_navigation_mobile = $module->main_navigation_mobile;
         $this->view->main_navigation_bottom = $module->main_navigation_bottom;
         $this->view->get_slide_array = $module->get_slide;
         $this->view->show_languages = $module->show_languages; 
@@ -165,7 +166,7 @@ class render extends controller {
 				<!-- Optional theme -->
 				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/bootstrap/css/bootstrap-theme.min.css">
 				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/general.css" />
-				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/en.css" />
+				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/'.$_GET["lang"].'.css" />
 				<script type="text/javascript" src="'.MAIN_DIR.'/public/js/scripts.js"></script>
 				<!-- Latest compiled and minified JavaScript -->
 				<script src="'.MAIN_DIR.'/_plugins/bootstrap/js/bootstrap.min.js"></script>
@@ -182,7 +183,7 @@ class render extends controller {
 				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/bootstrap/css/bootstrap-theme.min.css">
 
 			    <link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/general.css" />
-    			<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/en.css" />
+    			<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/'.$_GET["lang"].'.css" />
     			<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/_plugins/content-filter/css/style.css" />
 				<!--filter Jquery START-->
 				<script src="'.MAIN_DIR.'/_plugins/content-filter/js/modernizr.js"></script>
@@ -235,7 +236,7 @@ class render extends controller {
 				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/bootstrap/css/bootstrap-theme.min.css">
 
 			    <link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/general.css" />
-    			<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/en.css" />
+    			<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/'.$_GET["lang"].'.css" />
     			<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/_plugins/content-filter/css/style.css" />
 				
 				
@@ -278,7 +279,7 @@ class render extends controller {
 				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/bootstrap/css/bootstrap-theme.min.css">
 
 			    <link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/general.css" />
-    			<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/en.css" />
+    			<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/'.$_GET["lang"].'.css" />
     			<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/_plugins/content-filter/css/style.css" />
 				
 				<script type="text/javascript" src="'.MAIN_DIR.'/public/js/scripts.js"></script>
@@ -326,7 +327,7 @@ class render extends controller {
 				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/bootstrap/css/bootstrap-theme.min.css">
 
 				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/general.css" />
-				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/en.css" />
+				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/'.$_GET["lang"].'.css" />
 				<!--OWL Slider START-->
 				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.carousel.css">	 
 				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.theme.css">	 
@@ -410,7 +411,7 @@ class render extends controller {
 				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/bootstrap/css/bootstrap-theme.min.css">
 
 				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/general.css" />
-				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/en.css" />
+				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/'.$_GET["lang"].'.css" />
 				<script type="text/javascript">
 				// scroll loader
 				$(window).scroll(function() {         
