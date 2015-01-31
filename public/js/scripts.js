@@ -21,8 +21,23 @@ $(document).ready(function(){
 			console.log("error loading image"); 
 		});
 	}
-
 	
+	// $( ".error-404-item" ).stop().hover(function(){
+	// 	var titx = $(this).attr("title");		
+	// 	$(this).removeAttr('title');
+	// 	$(this).append("<div class='tooltips'>"+titx+"</div>");
+	// 	var px = $(".error-404-item a img").height();
+	// 	px = px+"px";
+	// 	var px2 = $(".error-404-item a img").width();
+	// 	px2 = px2+"px";
+	// 	$(".error-404-item .tooltips").css({ "width" : px2 });
+	// });
+
+	// $( ".error-404-item" ).stop().mouseleave(function(){
+	// 	var titx = $(".error-404-item .tooltips").html();
+	// 	$(this).attr({'title':titx});
+	// 	$(".error-404-item .tooltips").remove();
+	// });
 	
 
 	//margin top logo 

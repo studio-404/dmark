@@ -27,23 +27,6 @@ if(!isset($_GET["news_titile"]) && !isset($_GET["catalog"])) :
 				<a href="'.CURRENT_URL.'#'.$srows["p_client"].'" data-type="'.$srows["p_client"].'">'.$srows["p_title"].'</a></li>';
 			}
 			?>
-			<!-- <li data-filter=".public" class="filter">
-				<a href="<?=CURRENT_URL?>#public" data-type="public"><?=ucfirst($public)?></a></li>
-			<li data-filter=".commercial" class="filter">
-				<a href="<?=CURRENT_URL?>#commercial" data-type="commercial"><?=ucfirst($commercial)?></a>
-			</li>
-			<li data-filter=".housing" class="filter">
-				<a href="<?=CURRENT_URL?>#housing" data-type="housing"><?=ucfirst($housing)?></a>
-			</li>
-			<li data-filter=".competition" class="filter">
-				<a href="<?=CURRENT_URL?>#competition" data-type="competition"><?=ucfirst($competition)?></a>
-			</li>
-			<li data-filter=".interior" class="filter">
-				<a href="<?=CURRENT_URL?>#interior" data-type="interior"><?=ucfirst($interior)?></a>
-			</li>
-			<li data-filter=".realized" class="filter">
-				<a href="<?=CURRENT_URL?>#realized" data-type="realized"><?=ucfirst($realized)?></a>
-			</li> -->
 		</ul> 
 		<div class="closeable"></div>
 		<div class="clearer"></div>

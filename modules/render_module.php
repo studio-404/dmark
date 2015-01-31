@@ -551,16 +551,20 @@ class render_module extends module {
 										`status`!=1 ORDER BY `p_date` DESC LIMIT 10
 										");
 		$out = ''; 
+		$ix = 1;
 		while($rows = mysql_fetch_array($select_projects)){
-			$out .= '<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix '.$rows["p_type"].' check1 radio2 option3">';
+			$out .= '<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix '.$rows["p_type"].' check1 radio2 option3" title="'.addslashes(html_entity_decode($rows["p_title"])).'" aria-describedby="ui-id-'.$ix.'">';
+			
 			$image = $this->getMainImageCatalog($rows["idx"]); 
 			$out .= '<a href="'.$_GET["lang"].'/'.$_GET["url"].'/'.$rows["idx"].'">';
 			if($image) :
 				$out .= '<img src="crop.php?path=image/slide/&amp;img=http://dmark.ge/image/gallery/'.$image.'&amp;width=200&amp;height=190" width="100%" alt="" />';
 			endif;
-			$out .= '<p>'.$rows["p_title"].'</p>';
+			$cutText = $this->cut_text($rows["p_title"],20);
+			$out .= '<p>'.$cutText.'</p>';
 			$out .= '</a>';
 			$out .= '</li>';
+			$ix++;
 		}
 		endif;
 		if($idx) : 

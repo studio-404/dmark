@@ -312,6 +312,20 @@ main .error-404-projectContainer{
 }
 .error-404-item{
 	cursor: pointer;
+	position: relative;
+}
+.error-404-item .tooltips{
+	margin: 0;
+	padding: 5px;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	color: #fd4b1d;
+	text-align: left;
+	z-index: 1000;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 .error-404-item a{
 	text-decoration: none;
