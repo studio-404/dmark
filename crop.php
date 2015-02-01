@@ -14,12 +14,13 @@ ini_set("gd.jpeg_ignore_warning", 1);
 
 if (file_exists($file_path))
 {
-    header("location: " . $file_path);
+     header("location: " . $file_path);
 }
 else
 {
 	$src = $_GET['path']. sha1('to_crop_' . $img . $w . $h) . '.' . $ext;
-	copy(str_replace(array("http://dmark.ge/","http://www.dmark.ge/"), array("",""), $img), $src);
+	
+    copy(str_replace(array("http://dmark.ge/","http://www.dmark.ge/"), array("",""), $img), $src);
     make_thumb($src, $w, $h, $file_path);
 	unlink($src);
     header("location: " . $file_path);

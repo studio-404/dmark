@@ -235,12 +235,9 @@ class render extends controller {
 				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/bootstrap/css/bootstrap.min.css">
 				<!-- Optional theme -->
 				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/bootstrap/css/bootstrap-theme.min.css">
-
 			    <link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/general.css" />
     			<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/'.$_GET["lang"].'.css" />
     			<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/_plugins/content-filter/css/style.css" />
-				
-				
 				<script type="text/javascript" src="'.MAIN_DIR.'/public/js/scripts.js"></script>
 				<!-- Latest compiled and minified JavaScript -->
 				<script src="'.MAIN_DIR.'/_plugins/bootstrap/js/bootstrap.min.js"></script>
@@ -248,29 +245,22 @@ class render extends controller {
 				<script src="'.MAIN_DIR.'/_plugins/bootstrap/js/html5shiv.min.js"></script>
 				<script src="'.MAIN_DIR.'/_plugins/bootstrap/js/respond.min.js"></script>
 				<![endif]-->
-				 <!--OWL Slider START-->
-				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.carousel.css">	 
-				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.theme.css">	 
-				<script src="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.carousel.js"></script>
-			    <!--OWL Slider END-->
-			    <script type="text/javascript">
-				$(document).ready(function() {
-						$("#owl-demo").owlCarousel({ 
-								autoPlay : true, 
-								autoHeight : true, 
-								navigation : false, // Show next and prev buttons
-								navigationText : ["<",">"], 
-								//Lazy load
-							    lazyLoad : false,
-							    lazyFollow : true,
-							    lazyEffect : false,
-								paginationNumbers: true,
-								slideSpeed : 1000,
-								paginationSpeed : 400,
-								singleItem:true
-						});
+				<!--OWL BETA SLIDER START-->
+				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
+				<script src="'.MAIN_DIR.'/_plugins/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
+				<script type="text/javascript">
+				$(document).ready(function(){
+  					$("#owl-demo").owlCarousel({
+  						loop : true, 
+  						items : 1, 
+  						autoplay : true, 
+  						smartSpeed : 1000, 
+  						autoplaySpeed : 3000
+  					});
 				});
-				</script>';
+				</script>
+				<!--OWL BETA SLIDER end-->
+				';
 				
 			}else if($_GET["url"]=="team"){
 				$out .= '<script type="text/javascript" src="'.MAIN_DIR.'/public/js/jquery-1.11.2.min.js"></script>
@@ -329,30 +319,23 @@ class render extends controller {
 
 				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/general.css" />
 				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/'.$_GET["lang"].'.css" />
-				<!--OWL Slider START-->
-				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.carousel.css">	 
-				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.theme.css">	 
-				<script src="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.carousel.js"></script>
-				<!--OWL Slider END-->
+				
+				<!--OWL BETA SLIDER START-->
+				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
+				<script src="'.MAIN_DIR.'/_plugins/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
 				<script type="text/javascript">
-				$(document).ready(function() {
-				$("#owl-demo").owlCarousel({ 
-					autoPlay : 7000, 
-					autoHeight : true, 
-					navigation : false, // Show next and prev buttons
-					navigationText : ["<",">"], 
-					//Lazy load
-				    lazyLoad : true,
-				    lazyFollow : true,
-				    lazyEffect : false,
-					paginationNumbers: true,
-					slideSpeed : 200,
-					rewindSpeed: 2000, 
-					paginationSpeed : 2000,
-					singleItem:true
-				});
+				$(document).ready(function(){
+  					$("#owl-demo").owlCarousel({
+  						loop : true, 
+  						items : 1, 
+  						autoplay : true, 
+  						smartSpeed : 1000, 
+  						autoplaySpeed : 3000
+  					});
 				});
 				</script>
+				<!--OWL BETA SLIDER end-->
+				
 				<!--LOAD MAP START-->
 				<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 				<script type="text/javascript">

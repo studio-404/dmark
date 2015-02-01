@@ -560,7 +560,7 @@ class render_module extends module {
 			if($image) :
 				$out .= '<img src="crop.php?path=image/slide/&amp;img=http://dmark.ge/image/gallery/'.$image.'&amp;width=200&amp;height=190" width="100%" alt="" />';
 			endif;
-			$cutText = $this->cut_text($rows["p_title"],20);
+			$cutText = $this->cut_text($rows["p_title"],15);
 			$out .= '<p>'.$cutText.'</p>';
 			$out .= '</a>';
 			$out .= '</li>';

@@ -75,8 +75,11 @@ if(isset($_GET["news_titile"]) && isset($_GET["catalog"])) :
 			</div>
 		</div>
 		<div class="col-lg-10 col-md-10">
-
-			<div id="owl-demo" class="owl-carousel owl-theme error-404-owl studio-404-projectOwlSlider">
+		<?php
+		$cimage = count($this->projectImgs);
+		$idImage = ($cimage<=1) ? "noCarusel" : "owl-demo";
+		?>
+			<div id="<?=$idImage?>" class="owl-theme error-404-owl studio-404-projectOwlSlider">
 			<?php
 			$x = 0;
 			foreach($this->projectImgs as $image) : 

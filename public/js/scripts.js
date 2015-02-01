@@ -8,10 +8,13 @@ $(document).ready(function(){
 	var splited = curl.split("/");
 
 	if(splited[4] && splited[4]=="home"){ 
-		$("<img src='"+bgx+"'/>").load(function() { 
+		// alert(bgx);
+		// crop.php?path&img=
+		//http://dmark.ge/crop.php?path=morefiles/welcome_page/&img=morefiles/welcome_page/wallpaper.png&width=1000&height=500
+		$("<img src='crop.php?path=morefiles/welcome_page/&img="+bgx+"&width=1920&height=934' width='1920' height='934' alt='Welcome page background' />").load(function() { 
 			$(".preloader").hide();
 			$("body").addClass("homepage");
-			$("body").attr({"style":"background:url('"+bgx+"') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"});
+			$("body").attr({"style":"background:url('crop.php?path=morefiles/welcome_page/&img="+bgx+"&width=1920&height=934') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"});
 			$(".stop_load").fadeIn("slow"); 
 			// var leftW = Math.floor($(".error-404-textaligncenter").width()) + 20;
 			// leftW = leftW + "px";
