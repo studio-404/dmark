@@ -94,6 +94,16 @@ if(isset($_GET["news_titile"]) && isset($_GET["catalog"])) :
 		</div>
 	</div><div class="clearer"></div>
 </main>
+
+
+<script src="<?=MAIN_DIR?>/_plugins/readmore/readmore.js"></script>
+<script>
+    $('.error-404-projViewText').readmore({
+      moreLink: '<a href="#"><?=$readmore?></a>',
+      lessLink: '<a href="#"><?=$close?></a>',
+      collapsedHeight: 150 
+    });
+</script>
 <?php
 endif;
 @require("views/parts/footer.php");
