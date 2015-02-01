@@ -585,7 +585,7 @@ Contact page start
 	.owl-theme .owl-controls .owl-page span.owl-numbers{
 		width: 20px !important;
 	}
-	#gridx{
+	/*#gridx{
 		margin-left: -5px;
 		margin-right: -5px; 
 	}
@@ -596,7 +596,7 @@ Contact page start
 	.error-404-item p{
 		padding: 5px 0px !important;
 		margin: 0 0 10px 0 !important;
-	}
+	}*/
 }
 @media(max-width:768px){
 	.llogo{
@@ -658,8 +658,8 @@ Contact page start
 		list-style-type:none;
 		margin: 0;
 		padding: 0;
-		width: 80%; 
-		margin: 80px 10% 0 10%;
+		width: 90%; 
+		margin: 80px 5% 0 5%;
 		float: left;
 	}
 	.menu ul li {
@@ -729,27 +729,27 @@ Contact page start
 		transform: rotate(0deg);
 	}
 	.error-404-container{
-		width: 80% !important; 
-		margin: 0 10% !important;
+		width: 90% !important; 
+		margin: 0 5% !important;
 	} 
 	.error-404-text h1{
 		font-size: 44px !important;
 	}
 	.error-404-containerProject{
-		width: 80% !important; 
-		margin: 0 10% !important;
+		width: 90% !important; 
+		margin: 0 5% !important;
 	}
 	nav{
-		width: 80% !important; 
-		margin: 20px 10% 0 10% !important;
+		width: 90% !important; 
+		margin: 20px 5% 0 5% !important;
 	}
 	.error-404-projectContainer{
 		width: 100% !important; 
 		margin: 20px 0 0 0 !important;
 	}
 	main{
-		width: 80% !important; 
-		margin: 20px 10% 0 10% !important;
+		width: 90% !important; 
+		margin: 20px 5% 0 5% !important;
 	}
 	main .lists li{
 		border-top: solid 1px #ffffff;
@@ -805,8 +805,8 @@ Contact page start
 		display: none;
 	}
 	footer{
-		width: 80% !important; 
-		margin: 0px 10% !important;
+		width: 90% !important; 
+		margin: 0px 5% !important;
 	}
 	.error-404-prolinks{
 		margin: 30px 0 0 0 !important;
