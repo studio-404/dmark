@@ -33,4 +33,7 @@ if($_GET["url"]=="home"){
 }else{ $i=0; $files[$i] = ""; }
 ?>
 <body>
+<?php
+@include("views/parts/analyticstracking.php");
+?>
 <div style="display:none" id="bgx"><?=$files[$i]?></div>

@@ -409,7 +409,9 @@ class gapi
     );
     
     $response = $this->httpRequest(gapi::client_login_url,null,$post_variables);
-    
+    // echo "<pre>";
+    // print_r($response); 
+    // echo "</pre>";
     //Convert newline delimited variables into url format then import to array
     parse_str(str_replace(array("\n","\r\n"),'&',$response['body']),$auth_token);
     

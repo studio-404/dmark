@@ -1,9 +1,11 @@
 <?php
-require_once("gapi.class.php");
-require_once("../../../config.php");
-$email = "akademqalaqi@gmail.com"; // akademqalaqi@gmail.com
-$password = "education201"; // education201
-$profile_id = 87806577; // 87806577 path after {p}
+if(file_exists("/home/dmark/domains/dmark.ge/public_html/_admin@/_plugins/gapi/gapi.class.php") && file_exists("/home/dmark/domains/dmark.ge/public_html/config.php")){
+	require_once("/home/dmark/domains/dmark.ge/public_html/_admin@/_plugins/gapi/gapi.class.php");
+	require_once("/home/dmark/domains/dmark.ge/public_html/config.php");
+}else{ exit(); }
+$email = "giorgigvazava87@gmail.com"; // akademqalaqi@gmail.com
+$password = "afpbkqfhitxbddse"; // education201
+$profile_id = 97203144; // 87806577 path after {p}
 $ga = new gapi($email,$password);
 if(isset($_POST["start"],$_POST["end"]) && $_POST["start"]<$_POST["end"]){
 	$explodeS = explode("/",$_POST['start']);

@@ -158,7 +158,8 @@ class render extends controller {
 		$out = "<link href='".MAIN_DIR."/public/css/google.css' type='text/css' rel='stylesheet' />";
 		if($type=="text"){
 			$out .= '<link rel="stylesheet" href="public/scripts/gallery/dist/magnific-popup.css" type="text/css" />';
-		}else if($type=="plugin"){
+		}else if($type=="plugin")
+		{
 			if($_GET["url"]=="home"){
 				$out .= '<script type="text/javascript" src="'.MAIN_DIR.'/public/js/jquery-1.11.2.min.js"></script>
 				<!-- Latest compiled and minified CSS -->

@@ -8,11 +8,12 @@
 <th><?=l("data")?></th>
 </tr>
 <tr>
-<td>
+<td> 
 	<b><i><?=l("name")?>:</i></b>&nbsp;&nbsp;&nbsp;<?=($_GET["lang"]=="ka") ? WEBSITE_NAME_KA : WEBSITE_NAME_EN?><br />
 	<b><i><?=l("welcomePagex")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="javascript:$('#searchHello').submit()"><?=l("edit")?></a><br />
 	<b><i><?=l("projects")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/table/categoryItem/1"><?=l("edit")?></a><br />
-	<b><i><?=l("team")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/table/categoryItem/3"><?=l("edit")?></a><br />
+	<b><i><?=l("teamCatalog")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/table/categoryItem/3"><?=l("edit")?></a><br />
+	<b><i><?=l("teamTextEdit")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/edit/navigation/5"><?=l("edit")?></a><br />
 	<b><i><?=l("event")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/table/newsItem/1"><?=l("edit")?></a><br />
 	<b><i><?=l("projectFilter")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/table/categoryItem/4"><?=l("edit")?></a><br />
 	<b><i><?=l("filemanager")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/table/filemanager"><?=l("edit")?></a><br />
