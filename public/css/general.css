@@ -429,6 +429,28 @@ footer .rightside{
 	text-decoration: underline;
 	font-size: 13px;
 }
+
+.bx-pager-item{
+	margin: 0 1.5px;
+	padding: 0; 
+	float: right; 
+}
+.bx-pager-item a{
+	margin: 5px 0 0 0;
+	padding:0;
+	width: 100px;
+	height: 15px;
+	background-color: #b5b5b5;
+	text-indent: -9999px;
+	display: block;
+}
+.bx-pager-item a:hover{
+	background-color: #fd4b1d; 
+}
+.bx-pager-item .active{
+	background-color: #fd4b1d; 
+}
+.blwt{ -webkit-filter: grayscale(100%); filter: grayscale(100%); }
 /*
 team view Start
 */
@@ -534,7 +556,7 @@ Contact page start
 	float: left !important;
 }
 .error-404-contactCols{
-	margin-bottom: 30px;
+	margin: 30px 0 50px 0;
 }
 .error-404-contactCols form{
 	margin: 0;

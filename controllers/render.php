@@ -245,29 +245,10 @@ class render extends controller {
 				<script src="'.MAIN_DIR.'/_plugins/bootstrap/js/html5shiv.min.js"></script>
 				<script src="'.MAIN_DIR.'/_plugins/bootstrap/js/respond.min.js"></script>
 				<![endif]-->
-				 <!--OWL Slider START-->
-				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.carousel.css">	 
-				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.theme.css">	 
-				<script src="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.carousel.js"></script>
-			    <!--OWL Slider END-->
-			    <script type="text/javascript">
-				$(document).ready(function() {
-						$("#owl-demo").owlCarousel({ 
-								autoPlay : true, 
-								autoHeight : true, 
-								navigation : false, // Show next and prev buttons
-								navigationText : ["<",">"], 
-								//Lazy load
-							    lazyLoad : false,
-							    lazyFollow : true,
-							    lazyEffect : false,
-								paginationNumbers: true,
-								slideSpeed : 1000,
-								paginationSpeed : 400,
-								singleItem:true
-						});
-				});
-				</script>
+				<!--BXslider START-->
+				<script src="'.MAIN_DIR.'/_plugins/jquery-bxslider/plugins/jquery.fitvids.js"></script>
+  				<script src="'.MAIN_DIR.'/_plugins/jquery-bxslider/jquery.bxslider.js"></script>
+				<!--BXslider END-->
 				';
 				
 			}else if($_GET["url"]=="team"){
@@ -328,29 +309,10 @@ class render extends controller {
 				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/general.css" />
 				<link rel="stylesheet" type="text/css" href="'.MAIN_DIR.'/public/css/'.$_GET["lang"].'.css" />
 				
-				 <!--OWL Slider START-->
-				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.carousel.css">	 
-				<link rel="stylesheet" href="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.theme.css">	 
-				<script src="'.MAIN_DIR.'/_plugins/owl.carousel/owl-carousel/owl.carousel.js"></script>
-			    <!--OWL Slider END-->
-			    <script type="text/javascript">
-				$(document).ready(function() {
-						$("#owl-demo").owlCarousel({ 
-								autoPlay : true, 
-								autoHeight : true, 
-								navigation : false, // Show next and prev buttons
-								navigationText : ["<",">"], 
-								//Lazy load
-							    lazyLoad : false,
-							    lazyFollow : true,
-							    lazyEffect : false,
-								paginationNumbers: true,
-								slideSpeed : 1000,
-								paginationSpeed : 400,
-								singleItem:true
-						});
-				});
-				</script>
+				 <!--BXslider START-->
+				<script src="'.MAIN_DIR.'/_plugins/jquery-bxslider/plugins/jquery.fitvids.js"></script>
+  				<script src="'.MAIN_DIR.'/_plugins/jquery-bxslider/jquery.bxslider.js"></script>
+				<!--BXslider END-->
 				
 				<!--LOAD MAP START-->
 				<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>

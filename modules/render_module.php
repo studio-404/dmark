@@ -106,7 +106,7 @@ class render_module extends module {
 		$iframe = '';
 		for($x=0;$x<count($slide_array['title']);$x++)
 		{
-			$iframe .= '<img src="crop.php?path=image/slide/&amp;img='.MAIN_DIR.'/image/slide/'.$slide_array['image'][$x].'&amp;width=1292&amp;height=475" width="100%" alt="" />';
+			$iframe .= '<li><img src="crop.php?path=image/slide/&amp;img='.MAIN_DIR.'/image/slide/'.$slide_array['image'][$x].'&amp;width=1292&amp;height=475" width="100%" alt="" /></li>';
 		} 		
 		$out = $iframe;
 		return $out;
@@ -202,7 +202,7 @@ class render_module extends module {
 				//$path = $_GET['lang']."/".$_GET['url']."/".date("Y",$rows['wni_date'])."/".date("m",$rows['wni_date'])."/".$rows['wni_idx'];
 				$path = $rows["wni_httplink"]; 
 				$out .= '<article class="row error-404-article">';
-				$out .= '<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 error-404-articleImg">';
+				$out .= '<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 error-404-articleImg blwt">';
 				$out .= '<a href="'.$path.'">';
 				$out .= '<img src="crop.php?img=image/gallery/'.$image.'&amp;width=430&amp;height=300" width="100%" alt="" />';
 				$out .= '</a>';
@@ -553,7 +553,7 @@ class render_module extends module {
 		$out = ''; 
 		$ix = 1;
 		while($rows = mysql_fetch_array($select_projects)){
-			$out .= '<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix '.$rows["p_type"].' check1 radio2 option3" title="'.addslashes(html_entity_decode($rows["p_title"])).'" aria-describedby="ui-id-'.$ix.'">';
+			$out .= '<li class="col-lg-2 col-md-4 col-sm-4 col-xs-6 error-404-item mix '.$rows["p_type"].' check1 radio2 option3 blwt" title="'.addslashes(html_entity_decode($rows["p_title"])).'" aria-describedby="ui-id-'.$ix.'">';
 			
 			$image = $this->getMainImageCatalog($rows["idx"]); 
 			$out .= '<a href="'.$_GET["lang"].'/'.$_GET["url"].'/'.$rows["idx"].'">';
@@ -596,7 +596,7 @@ class render_module extends module {
 										");
 		$out = ''; 
 		while($rows = mysql_fetch_array($select_team)){
-			$out .= '<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 error-team-item">';
+			$out .= '<div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 error-team-item blwt">';
 			//$out .= '<a href="">';
 			$image = $this->getMainImageCatalog($rows["idx"]); 
 			$out .= '<a href="'.$_GET["lang"].'/'.$_GET["url"].'/'.$rows["idx"].'">';

@@ -82,14 +82,26 @@ if(isset($_GET["news_titile"]) && isset($_GET["catalog"])) :
 			<div id="<?=$idImage?>" class="owl-theme error-404-owl studio-404-projectOwlSlider">
 			<?php
 			$x = 0;
+			echo '<ul class="bxslider">';
 			foreach($this->projectImgs as $image) : 
 			?>
-				<div class="item"><img src="crop.php?path=image/slide/&img=<?=MAIN_DIR?>/image/gallery/<?=$image?>&width=1065&height=755" width="100%" alt="<?=$projects["p_title"]?>"></div>
+				<li class="item"><img src="crop.php?path=image/slide/&img=<?=MAIN_DIR?>/image/gallery/<?=$image?>&width=1065&height=755" width="100%" alt="<?=$projects["p_title"]?>"></li>
 			<?php
 			$x++;
 			endforeach;
+			echo "</ul>";
 			?>
 			</div>
+			<script type="text/javascript">
+				$(".bxslider").bxSlider({
+					auto : true, 
+					speed : 3000, 
+					pause: 7000, 
+  					useCSS: false, 
+  					controls : false, 
+  					pager : true 
+				});
+			</script>
 			<div class="clearer"></div>
 		</div>
 	</div><div class="clearer"></div>

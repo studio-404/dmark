@@ -8,13 +8,24 @@ $lang_file = ADMIN_FOLDER."/cache/".$_GET['lang']."_l.php";
 	<div class="row">	
 		
 		<div class="col-lg-12 col-md-12 error-404-contactOwl">
-			<div id="owl-demo" class="owl-carousel owl-theme error-404-owl error-404-contactOwlSlider">
-			<?php
-			echo $this->get_slide_array;
-			?>
-			</div>
+			<ul class="bxslider">
+				<?php
+					echo $this->get_slide_array;
+				?>
+			</ul>
+			<script type="text/javascript">
+				$(".bxslider").bxSlider({
+					auto : true, 
+					speed : 3000, 
+					pause: 7000, 
+  					useCSS: false, 
+  					controls : false, 
+  					pager : false 
+				});
+			</script>
+
 			<div class="clearer"></div>
-		</div>
+		</div><div class="clearer"></div>
 
 		<div class="col-lg-4 col-md-4 col-sm-12 error-404-contactCols">
 			<h2><?=$sendquestion?>: </h2>

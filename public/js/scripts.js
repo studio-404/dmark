@@ -17,6 +17,18 @@ $(document).ready(function(){
 		}).error(function() { 
 			console.log("error loading image"); 
 		});
+
+		//margin top logo 
+		if ( $(".error-404-container").length ) {
+	     	$( ".error-404-container" ).css({"height": height+"px" });
+	     	if(width<=280){
+	     		$( ".error-404-container .error-404-rowcenter" ).css({"margin-top": "-100px" });
+	     	}else{
+	     		$( ".error-404-container .error-404-rowcenter" ).css({"margin-top": "-199.5px" });	
+	     	}
+	     	
+	 	}
+
 	}
 	
 	// link back
@@ -25,17 +37,6 @@ $(document).ready(function(){
 		var linkx = $(".error-404-backlink a").attr("href");
 		location.href=linkx;
 	});
-
-	//margin top logo 
-	if ( $(".error-404-container").length ) {
-     	$( ".error-404-container" ).css({"height": height+"px" });
-     	if(width<=280){
-     		$( ".error-404-container .error-404-rowcenter" ).css({"margin-top": "-100px" });
-     	}else{
-     		$( ".error-404-container .error-404-rowcenter" ).css({"margin-top": "-199.5px" });	
-     	}
-     	
- 	}
 
  	// logo width on < 380px
  	if(width<=380){
@@ -67,11 +68,13 @@ $(document).ready(function(){
  	var slideMenu = 1;
  	// remove navigation and set dropdonw
  	if($("main .filterx").length){
+ 		var listwidth = $(".cd-tab-filter").width();
+ 		$(".cd-tab-filter").css({"left":"-1090px", "display":"block", "width":"1090px"});
+
  		$("main .filterx").click(function(){
  			if(width >= 1290)
  			{
- 				if(slideMenu==1){
-	 				var listwidth = $(".cd-tab-filter").width();
+ 				if(slideMenu==1){	 				
 	 				$(".cd-tab-filter").css({"left":"-"+(listwidth-10)+"px", "display":"block", "width":"1090px"});
 	 				$(".menuSelected").removeClass("selectedx");
 	 				$(".cd-tab-filter").stop().animate({
@@ -200,7 +203,16 @@ $(document).ready(function(){
 		}
 	});
 
+	
+
 });
+
+setTimeout(function(){ 
+	$(".error-404-item").removeClass("blwt"); 
+	$(".error-team-item").removeClass("blwt"); 
+	$(".studio-404-teamMember").removeClass("blwt"); 
+	$(".error-404-articleImg").removeClass("blwt"); 
+}, 1000);
 
 
 function closeNav(){
