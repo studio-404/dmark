@@ -271,3 +271,38 @@ footer div{
 	font-family: 'Montserrat'; 
 	color: #000000;
 }
+
+.error-projViewLeft a{
+	font-family: 'Montserrat'; 
+}
+
+@media(max-width:480px){
+
+}
+@media(max-width:768px){ 
+
+}
+@media(max-width:992px){ 
+
+}
+@media(max-width:1292px){ 
+	.error-404-text h1{
+		font-size: 35px !important;
+		line-height: 45px !important;
+	}
+	.error-404-text p{
+		margin-top: 10px !important;
+		font-size: 25px !important;
+		line-height: 35px !important;
+	}
+	.error-404-text p a{
+		font-size: 20px !important;
+		line-height: 30px !important;
+	}
+	.error-404-text p a img{
+		margin-top: 7px !important;
+	}
+	.error-404-prolinks{
+		margin-top: 50px !important;
+	}
+}

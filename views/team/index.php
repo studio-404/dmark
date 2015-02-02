@@ -36,7 +36,7 @@ if(isset($_GET["news_titile"])) :
 		<div class="col-lg-2 col-md-2 col-sm-12">
 			<div class="error-404-backlink"><a href="<?=MAIN_DIR?>/<?=$_GET["lang"]?>/team"><?=ucfirst($back_page)?></a></div>
 			<div class="studio-404-teamMember">
-				<img src="crop.php?path=image/slide/&amp;img=http://dmark.ge/image/gallery/<?=$this->projectImgs?>&amp;width=200&amp;height=190" width="100%" alt="Vladimer abramidze" class="error-teammember-image" />
+				<img src="crop.php?path=image/slide/&amp;img=http://dmark.ge/image/gallery/<?=$this->projectImgs?>&amp;width=200&amp;height=190" width="100%" alt="<?=html_entity_decode(stripslashes(str_replace("&nbsp;"," ",$team["namelname"])))?>" class="error-teammember-image" />
 			</div>
 		</div>
 		<div class="col-lg-10 col-md-10 col-sm-12 error-404-teamView">

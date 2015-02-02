@@ -271,6 +271,9 @@ footer div{
 	font-family: 'geoMontserrat'; 
 	color: #000000;
 }
+.error-projViewLeft a{
+	font-family: 'geoMontserrat'; 
+}
 
 @media(max-width:480px){
 

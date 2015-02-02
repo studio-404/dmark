@@ -6,23 +6,22 @@ if(isset($_POST["s"])){ change_permition("website_gallery_photos",false,$_GET["e
 $admin_permition = check_if_permition("website_gallery_photos",false,$_GET["edit"]);
 if(isset($_POST["post"]) && $admin_permition)
 {
+	if(isset($_POST["cover"][0]) || isset($_POST["cover"][1])){
+		$cover = 1;
+	}else{ $cover = 0; }
 	insert_action("photo","edit",$_GET['edit']);
 	// image upload
 	foreach($_POST["post"] as $key => $value){ 
-		if(!empty($value["title"])){
-				$update = mysql_query("UPDATE `website_gallery_photos` SET 
-																`title`='".strip($value["title"])."',  
-																`description`='".strip($value["description"])."' 
-																WHERE 
-																`idx`='".(int)$_GET['edit']."' AND 
-																`langs`='".strip($key)."' 
-																");
-				$msg = l("done");
-				$theBoxColore = "orange";
-		}else{
-			$msg = l("requiredfields");
-			$theBoxColore = "red";
-		}		
+		$update = mysql_query("UPDATE `website_gallery_photos` SET 
+								`title`='".strip($value["title"])."',  
+								`description`='".strip($value["description"])."', 
+								`cover`='".(int)$cover."' 
+								WHERE 
+								`idx`='".(int)$_GET['edit']."' AND 
+								`langs`='".strip($key)."' 
+								");
+		$msg = l("done");
+		$theBoxColore = "orange";	
 	}
 	
 	if(mysql_error()){
@@ -93,6 +92,11 @@ $select_languages = select_languages();
 			<div class="boxes">
 				<label for="description"><i><?=l("text")?></i></label><br />
 				<textarea name="post[<?=$select_languages["language"][$y-1]?>][description]" id="description_<?=$rows["id"]?>" class="description1"><?=(isset($rows['description'])) ? $rows['description'] : "";?></textarea>
+			</div><div class="clearer"></div>
+
+
+			<div class="boxes">
+				<label for="cover-<?=y?>"><i><?=l("cover")?></i> <input type="checkbox" id="cover-<?=y?>" name="cover[<?=($y-1)?>]" class="cover" <?=(isset($rows['cover']) && $rows["cover"]==1) ? "checked='checked'" : "";?> value="1" /></label>
 			</div><div class="clearer"></div>
 			
 			<div class="boxes">

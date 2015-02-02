@@ -101,7 +101,7 @@ if(isset($_GET["news_titile"]) && isset($_GET["catalog"])) :
     $('.error-404-projViewText').readmore({
       moreLink: '<a href="#"><?=$readmore?></a>',
       lessLink: '<a href="#"><?=$close?></a>',
-      collapsedHeight: 150 
+      collapsedHeight: 450 
     });
 </script>
 <?php
