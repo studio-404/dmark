@@ -18,7 +18,7 @@
 	<meta property="og:title" content="<?=$this->text_title.strtoupper($websitemetatitle)?>" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://<?=$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI]?>" />
-	<meta property="og:image" content="<?=MAIN_DIR?>/public/img/logo.png" />
+	<meta property="og:image" content="<?=MAIN_DIR?>/public/img/logo2.png" />
 	<meta property="og:site_name" content="<?=strip_tags($this->text_title)?>"/>
 	<meta property="og:description" content="<?=strip_tags($this->text_text)?>"/>
 	<!-- FB Meta tags (end)-->
