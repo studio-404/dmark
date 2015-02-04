@@ -2,6 +2,11 @@
 <input type="hidden" name="where" value="variable" />
 <input type="hidden" name="search_val" value="hello" />
 </form>
+
+<form action="/_admin@/ka/table/vars" method="post" id="searchContactInfo">
+<input type="hidden" name="where" value="variable" />
+<input type="hidden" name="search_val" value="coinfofor" />
+</form>
 <table class="table">
 <tbody>
 <tr>
@@ -12,12 +17,13 @@
 	<b><i><?=l("name")?>:</i></b>&nbsp;&nbsp;&nbsp;<?=($_GET["lang"]=="ka") ? WEBSITE_NAME_KA : WEBSITE_NAME_EN?><br />
 	<b><i><?=l("welcomePagex")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="javascript:$('#searchHello').submit()"><?=l("edit")?></a><br />
 	<b><i><?=l("projects")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/table/categoryItem/1"><?=l("edit")?></a><br />
+	<b><i><?=l("projectFilter")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/table/categoryItem/4"><?=l("edit")?></a><br />
 	<b><i><?=l("teamCatalog")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/table/categoryItem/3"><?=l("edit")?></a><br />
 	<b><i><?=l("teamTextEdit")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/edit/navigation/5"><?=l("edit")?></a><br />
 	<b><i><?=l("event")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/table/newsItem/1"><?=l("edit")?></a><br />
-	<b><i><?=l("projectFilter")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/table/categoryItem/4"><?=l("edit")?></a><br />
 	<b><i><?=l("filemanager")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/table/filemanager"><?=l("edit")?></a><br />
 	<b><i><?=l("contactSlider")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="/_admin@/<?=$_GET["lang"]?>/slide"><?=l("edit")?></a><br />
+	<b><i><?=l("contactInformationx")?>:</i></b>&nbsp;&nbsp;&nbsp;<a href="javascript:$('#searchContactInfo').submit()"><?=l("edit")?></a><br />
 </td>
 </tr>
 </tbody></table>

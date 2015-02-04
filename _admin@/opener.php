@@ -10,9 +10,9 @@ if(isset($_GET["configuration"]))
 }else{ exit(); }
 
 /* DISALLOW IPs*/
-$select_ip = mysql_query("SELECT `ip_address` FROM `system_ips` WHERE `ip_address`='".strip($_SERVER['REMOTE_ADDR'])."' AND `status`!=1 ");
-if(!mysql_num_rows($select_ip)){ die("<b>You dont have a permission ! Please tell website administrator to add your ip address to our database; your ip is: </b>".$_SERVER['REMOTE_ADDR']); }
-else{ define("ALLOW",time()); }
+// $select_ip = mysql_query("SELECT `ip_address` FROM `system_ips` WHERE `ip_address`='".strip($_SERVER['REMOTE_ADDR'])."' AND `status`!=1 ");
+// if(!mysql_num_rows($select_ip)){ die("<b>You dont have a permission ! Please tell website administrator to add your ip address to our database; your ip is: </b>".$_SERVER['REMOTE_ADDR']); }
+// else{ define("ALLOW",time()); }
 
 /* open pages */
 if(isset($_GET['404']))

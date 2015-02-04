@@ -81,7 +81,7 @@ if(isset($_POST['email'],$_POST['password']))
 					<input type="submit" name="" value="<?=l("enter")?>" />
 				</div>
 				<div class="clearer"></div>
-				<div class="copy"><a href="http://404.ge" target="_blank">&copy; <?=l("webdeveloping")?></a></div>
+				<div class="copy"><a href="http://404.ge" target="_blank">&copy; Giorgi Gvazava</a></div>
 				<div class="clearer"></div>
 			</form>
 		</div>

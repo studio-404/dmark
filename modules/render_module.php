@@ -548,7 +548,7 @@ class render_module extends module {
 										WHERE 
 										`catalog_id`=1 AND 
 										`langs`='".mysql_real_escape_string($_GET["lang"])."' AND 
-										`status`!=1 ORDER BY `p_date` DESC LIMIT 10
+										`status`!=1 ORDER BY `p_date` DESC LIMIT 24
 										");
 		$out = ''; 
 		$ix = 1;
@@ -652,7 +652,7 @@ class render_module extends module {
 								`website_gallery`.`status`!=1 AND 
 								`website_gallery`.`idx`=`website_gallery_photos`.`gallery_id` AND 
 								`website_gallery_photos`.`langs`='".mysql_real_escape_string($_GET["lang"])."' AND 
-								`website_gallery_photos`.`status`!=1 ORDER BY `website_gallery_photos`.`id` DESC $l
+								`website_gallery_photos`.`status`!=1 ORDER BY `website_gallery_photos`.`position` ASC $l
 								");
 		if(mysql_num_rows($select)){
 			if(!$limit){

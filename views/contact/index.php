@@ -29,18 +29,19 @@ $lang_file = ADMIN_FOLDER."/cache/".$_GET['lang']."_l.php";
 
 		<div class="col-lg-4 col-md-4 col-sm-12 error-404-contactCols">
 			<h2><?=$sendquestion?>: </h2>
-			<form action="javascript:;" method="post" accept-charset="utf-8">
-			<div class="msg orange" style="display:none"><?=$done?> !</div>
-			<input type="text" name="title" value="" placeholder="<?=$name?>:" />
-			<input type="text" name="email" value="" placeholder="<?=$email?>:" />
-			<textarea name="text" placeholder="<?=$message?>:"></textarea>
+			<form action="javascript:sendEm();" method="post" accept-charset="utf-8" id="myform">
+			<input type="hidden" name="lang" id="lang" value="<?=$_GET["lang"]?>" />
+			<div class="msg orange" id="omsg"></div>
+			<input type="text" name="namelname" id="namelname" value="" placeholder="<?=$name?>:" />
+			<input type="text" name="email" id="email" value="" placeholder="<?=$email?>:" />
+			<textarea name="text" id="text" placeholder="<?=$message?>:"></textarea>
 			<input type="submit" name="submit" value="<?=$send?>" />
 			</form>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-12 error-404-contactCols">
 			<h2><?=$contactInformation?>: </h2>
 			<p>
-			<?=$contactinformation?>
+			<?=$coinfofor?>
 			</p>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-12 error-404-contactCols">

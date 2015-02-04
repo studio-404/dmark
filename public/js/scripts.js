@@ -203,8 +203,6 @@ $(document).ready(function(){
 		}
 	});
 
-	
-
 });
 
 setTimeout(function(){ 
@@ -220,37 +218,38 @@ function closeNav(){
 	$('.menu ul .close').remove();
 }
 
-// function filt(ha){	
-// 	location.href=ha;
-// 	var h = ha.split("#");		
-// 	$("#grid .error-404-item").each(function(){
-// 		if(h[1]=="all"){
-// 			$(this).show(1000);
-// 		}else if(h[1]!=$(this).data("filter")){
-//             $(this).hide(1000);
+function sendEm(){
+	var namelname = $("#namelname").val();
+	var email = $("#email").val();
+	var text = $("#text").val();
+	var lang = $("#lang").val();
+	
+//	alert( namelname + email + text );
+	
+$.post( "/ka/sendemail", { 	namelname: namelname, 	email: email, text:text  }, function(data){
+	if(data==2 && lang=="ka"){
+		$("#omsg").html("<p style='color:green'>ოპერაცია წარმატებით დასრულდა !</p>"); 
+		$("#omsg").fadeIn();
+		$("#namelname").val("");
+		$("#email").val("");
+		$("#text").val("");
+	}else if(data==1 && lang=="ka"){
+		$("#omsg").html("<p style='color:red'>მოხდა შეცდომა !</p>"); 
+	}else if(data==2 && lang=="en"){
+		$("#omsg").html("<p style='color:green'>Message sent !</p>"); 
+		$("#omsg").fadeIn();
+		$("#namelname").val("");
+		$("#email").val("");
+		$("#text").val("");
+	}else if(data==1 && lang=="en"){
+		$("#omsg").html("<p style='color:red'>Error Occured !</p>"); 
+	}
+	$("#omsg").css({"width":"100%"}); 
 
-// 		}else{
-// 			$(this).show(1000);
-// 		}
-// 	});
-// 	var selectedHashValue = $("."+h[1]).html();
-// 	$(".selected").html(selectedHashValue);
-// 	if( $(document).width() < 1290 )
-// 	{
-// 		$("main .lists").css({"top":"25px"});	 			
-//  		$('main .lists').slideUp("slow"); 
-//       	$("main .filterx .selected").removeClass("transferd"); 
-//       	yx = 1; 
-// 	}else{
-// 		$("main .lists").css({"display":"none"});
-// 		$("main .filterx").css({"width":"200px"});
-// 		$('main .lists').animate({
-// 			left: '0px' 
-// 		}); 
-// 		$("main .filterx .selected").removeClass("transferd");
-// 		yx = 1; 
-// 	}
-// }
+	setTimeout(function(){ $("#omsg").fadeOut(); },5000);
+}); 
+
+}
 
 function loadNews()
 {

@@ -18,7 +18,7 @@
 		font-weight: normal;
 		font-style: normal;
 }
-.header .title{margin:28px 0 0 10px; text-align:left; line-height:20px; font-size:12px; font-family:'bpg_banner_caps'; color:#fc9329; float:left; }
+.header .title{margin:28px 0 0 0; text-align:left; line-height:20px; font-size:12px; font-family:'bpg_banner_caps'; color:#fc9329; float:left; }
 .header .quick_info .info{ margin:7px 10px 0px 0px; line-height:12px; float:right; font-size:11px; font-family:'bpg_glaho_arial'; }
 .header .quick_info .info a{ line-height:14px; font-size:11px; font-family:'bpg_glaho_arial'; color:#222222; }
 .box .head .text{ width:250px; line-height:19px; color:#c4c4c4; font-size:12px; font-family:'bpg_banner_caps'; text-align:left; padding:3px 5px; float:left; }

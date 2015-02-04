@@ -13,7 +13,7 @@
 </form>
 <div class="clearer"></div>
 <ul class="main_actions">
-	<li><div class="icon-add"></div><a href="<?=$_GET['lang']?>/add/newsItem/<?=$_GET['gallery_id']?>"><?=l("addnews")?></a></li>
+	<li><div class="icon-add"></div><a href="<?=$_GET['lang']?>/add/newsItem/<?=$_GET['gallery_id']?>"><?=l("addevents")?></a></li>
 	<li><div class="icon-delete"></div><a href="javascript:void(0)"  class="deleteAll" onclick="remove_item('delete_newsItem.php?lang=<?=$_GET['lang']?>')"><?=l("delete")?></a></li>
 </ul>
 <div class="clearer"></div>
@@ -62,7 +62,7 @@ $ap = check_if_permition("website_news_items",false,$rows['wni_idx']);
 </table>
 <div class="clearer"></div>
 <ul class="main_actions">
-	<li><div class="icon-add"></div><a href="<?=$_GET['lang']?>/add/newsItem/<?=$_GET['gallery_id']?>"><?=l("addnews")?></a></li>
+	<li><div class="icon-add"></div><a href="<?=$_GET['lang']?>/add/newsItem/<?=$_GET['gallery_id']?>"><?=l("addevents")?></a></li>
 	<li><div class="icon-delete"></div><a href="javascript:void(0)"  class="deleteAll" onclick="remove_item('delete_newsItem.php?lang=<?=$_GET['lang']?>')"><?=l("delete")?></a></li>
 </ul>
 <div class="clearer"></div>

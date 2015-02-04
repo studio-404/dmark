@@ -214,7 +214,7 @@ class module {
 		$query = mysql_query($sql);
 		if(mysql_num_rows($query)){
 			$path = $_GET['lang']."/".$_GET['url']."/pn/";
-			$out = $this->pagination($sql,$path,2);
+			$out = $this->pagination($sql,$path,3);
 		}else{
 			$out='';
 		}

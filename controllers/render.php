@@ -320,13 +320,13 @@ class render extends controller {
 				function initialize() {
 				var mapOptions = {
 				zoom: 17,
-				center: new google.maps.LatLng(41.7243112,44.7772948)
+				center: new google.maps.LatLng(41.7250128,44.7789678)
 				}
 				var map = new google.maps.Map(document.getElementById(\'map-canvas\'), mapOptions);
 				setMarkers(map, beaches);
 				}
 				var beaches = [
-				[\''.MAIN_DIR.'/'.$_GET["lang"].'/contact'.'\', 41.7243112,44.7772948]
+				[\''.MAIN_DIR.'/'.$_GET["lang"].'/contact'.'\', 41.7250128,44.7789678]
 				];
 
 				function setMarkers(map, locations) {
@@ -334,7 +334,7 @@ class render extends controller {
 				url: \'public/img/anchor-icon.png\',
 				size: new google.maps.Size(29, 38),
 				origin: new google.maps.Point(0,0),
-				anchor: new google.maps.Point(40, 15)
+				anchor: new google.maps.Point(30, 30)
 				};
 				var shape = {
 				coord: [1, 1, 1, 20, 18, 20, 18 , 1],

@@ -58,7 +58,7 @@ if(isset($_GET["news_titile"]) && isset($_GET["catalog"])) :
 		<div class="col-lg-2 col-md-2 error-projViewLeft">
 			<div class="error-404-backlink"><a href="<?=MAIN_DIR?>/<?=$_GET["lang"]?>/projects">Back</a></div>
 			<h1><?=$projects["p_title"]?></h1>
-			<em><?=$date?>: 2013</em>
+			<strong><?=$date?>: 2013</strong>
 			<div class="error-404-projViewText">
 			<strong><?=$client?>:</strong> <span class="error-404-value"><?=$projects["p_client"]?></span> <br />
 			<strong><?=$location?>:</strong> <span class="error-404-value"><?=$projects["p_location"]?></span> <br />

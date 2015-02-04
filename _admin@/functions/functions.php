@@ -812,7 +812,18 @@ function getContent($title = false)
 	if(!mysql_num_rows($select)){ die("Something not right code -- ".$url); }
 	$rows = mysql_fetch_array($select);
 	if($title){
-		$out = $rows['text'];
+		if($_GET["show"]=="categoryItem" && $_GET["gallery_id"]==1){
+			$addx = " - ".l("projects");
+		}else if($_GET["show"]=="categoryItem" && $_GET["gallery_id"]==4){
+			$addx = " - ".l("projectFilter");
+		}else if($_GET["show"]=="categoryItem" && $_GET["gallery_id"]==3){
+			$addx = " - ".l("teamCatalog");
+		}else if($_GET["show"]=="categoryItem" && $_GET["gallery_id"]==3){
+			$addx = " - ".l("teamCatalog");
+		}else{
+			$addx = "";
+		}
+		$out = $rows['text'].$addx;
 		return $out;
 	}else{
 		global $p;

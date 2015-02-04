@@ -6,7 +6,7 @@
 		$find = "/".$_GET["lang"]."/";
 		$replace = ($_GET["lang"]=="ka") ? "/en/" : "/ka/"
 		?>
-		<a href="<?=str_replace($find,$replace,$return_url)?>" class="langs"><?=(isset($_GET["lang"]) && $_GET["lang"]=="en") ? "Ka" : "En"?></a>
+		<a href="<?=str_replace($find,$replace,$return_url)?>" class="langs"><?=(isset($_GET["lang"]) && $_GET["lang"]=="en") ? "Ge" : "En"?></a>
 
 
 		<div id="navigation">

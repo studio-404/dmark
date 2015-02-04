@@ -24,6 +24,7 @@ body{
    color:    #000000;
 }
 .stop_load{ display:none; }
+
 .preloader{
 	margin: 0;
 	padding: 0;
@@ -429,11 +430,13 @@ footer .rightside{
 	text-decoration: underline;
 	font-size: 13px;
 }
-
+.bx-controls{
+	float: right;
+}
 .bx-pager-item{
 	margin: 0 1.5px;
 	padding: 0; 
-	float: right; 
+	float: left; 
 }
 .bx-pager-item a{
 	margin: 5px 0 0 0;
